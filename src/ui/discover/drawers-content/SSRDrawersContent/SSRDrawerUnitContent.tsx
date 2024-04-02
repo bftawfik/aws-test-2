@@ -8,7 +8,7 @@ import AmenitiesShow from '@/ui/AmenitiesShow/AmenitiesShow';
 import DrawerGallery from '@/ui/gallery-component/DrawerGallery/DrawerGallery';
 import { ImagePlaceholder } from '@/ui/image-placeholder';
 import getNumberFormat from '@/helpers/get-number-format';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { BathRoomIcon, BedOutlineIcon, DimensionsIcon } from '@/ui/svg';
 import { Unit } from '@/types';
 import InnerSectionHeaderV2 from '@/ui/InnersSectionHeaderV2';
@@ -21,8 +21,8 @@ const SSRDrawerUnitContent = async ({
     unit: Unit;
     locale: string;
 }) => {
-    const tGlobal = await getTranslator(locale, 'global');
-    const tUnitCard = await getTranslator(locale, 'unit_card');
+    const tGlobal = await getTranslations('global');
+    const tUnitCard = await getTranslations('unit_card');
 
     const checkCommercialUnitType = unit?.type === 'commercial';
 

@@ -3,7 +3,7 @@ import getFilteredNeighborhoods from '@/actions/getFilteredNeighborhoods';
 import NeighborhoodCard from '@/ui/neighbothoods/Card';
 import { formatBoundsToBackend } from '@/helpers';
 import NoResults from '@/ui/empty-states/no-search-results';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { Location } from '@/types';
 import ContentsWrapper from '../discover-listing/ContentsWrapper/ContentsWrapper';
 
@@ -31,8 +31,8 @@ const LocationsSection = async ({
     cookieDiscoverView,
 }: LocationsSectionProps) => {
     // Read translations
-    const tGlobal = await getTranslator(locale, 'global');
-    const tEmptyState = await getTranslator(locale, 'empty_state');
+    const tGlobal = await getTranslations('global');
+    const tEmptyState = await getTranslations('empty_state');
 
     const boundsAsNumbers =
         bounds?.split('-').map((value) => Number(value)) || [];

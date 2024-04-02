@@ -2,7 +2,7 @@ import ContactusForm from '@/ui/contactus-form';
 import ReadMore from '@/ui/read-more';
 import Image from 'next/image';
 import React from 'react';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { DeveloperDetailsResponse } from '@/types';
 
 interface DeveloperInnerDescriptionProps {
@@ -13,7 +13,7 @@ const DeveloperInnerDescription = async ({
     locale,
     developer,
 }: DeveloperInnerDescriptionProps) => {
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
     return (
         <div className="mt-8">
             <div className="flex w-full items-center gap-3">

@@ -1,7 +1,7 @@
 import InnerSectionHeader from '@/ui/inners-section-header';
 import { Project } from '@/types';
 import { ProjectCardV2 } from '@/ui/projects/ProjectCardV2';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { DEVELOPER_SHORT } from '@/constants';
 import { converSlugToUrlName } from '@/helpers';
 
@@ -20,7 +20,7 @@ const DeveloperProjectsSection = async ({
     developerId,
     developerSlug,
 }: DeveloperProjectsSectionProps) => {
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
 
     const PROJECTS_LINK = `/discover/tab-projects/${DEVELOPER_SHORT}-${converSlugToUrlName(
         developerSlug

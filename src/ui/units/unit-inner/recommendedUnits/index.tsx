@@ -3,14 +3,14 @@ import { getUnitWithFilters } from '@/actions/useGetUnitWithFiltersQuery';
 import { useLocale } from 'next-intl';
 import { UnitCard } from '../../unit-card-v2';
 import { headers } from 'next/headers';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 interface RecommendedUnitsProps {
     locale: string;
 }
 const RecommendedUnits = async ({ locale }: RecommendedUnitsProps) => {
-    const tGlobal = await getTranslator(locale, 'global');
-    const tUnitCard = await getTranslator(locale, 'unit_card');
+    const tGlobal = await getTranslations('global');
+    const tUnitCard = await getTranslations('unit_card');
 
     var abortController = new AbortController();
 

@@ -3,7 +3,7 @@ import { Project, Unit } from '@/types';
 import InnerSectionHeader from '@/ui/inners-section-header';
 import { UnitCard } from '@/ui/units/unit-card-v2';
 // import { getServerSession } from 'next-auth';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { headers } from 'next/headers';
 
 interface ResaleUnitsV2Props {
@@ -16,8 +16,8 @@ const ResaleUnitsV2 = async ({ project, locale }: ResaleUnitsV2Props) => {
     // TODO: hide server session until solve forge problem
     // const session = await getServerSession(authOptions);
     // Read Trnaslation
-    const tGlobal = await getTranslator(locale, 'global');
-    const tUnitCard = await getTranslator(locale, 'unit_card');
+    const tGlobal = await getTranslations('global');
+    const tUnitCard = await getTranslations('unit_card');
 
     // Read Host
     const headersList = headers();

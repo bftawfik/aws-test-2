@@ -1,6 +1,6 @@
 import Breadcrumbs from '@/ui/breadcrumbs';
 import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 interface DeveloperInnerBreadcrumbsProps {
     slug: string;
@@ -14,7 +14,7 @@ const DeveloperInnerBreadcrumbs = async ({
     developerName,
 }: DeveloperInnerBreadcrumbsProps) => {
     // Read translations
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
 
     const urlLocaleSegment = getUrlLocaleSegment(locale);
 

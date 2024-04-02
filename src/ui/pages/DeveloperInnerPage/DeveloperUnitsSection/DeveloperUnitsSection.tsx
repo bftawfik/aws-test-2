@@ -1,5 +1,5 @@
 import InnerSectionHeader from '@/ui/inners-section-header';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { Unit } from '@/types';
 import { UnitCard } from '@/ui/units/unit-card-v2';
 import { headers } from 'next/headers';
@@ -20,8 +20,8 @@ const DeveloperUnitsSection = async ({
     developerSlug,
 }: DeveloperUnitsSectionProps) => {
     // Read translations
-    const tGlobal = await getTranslator(locale, 'global');
-    const tUnitCard = await getTranslator(locale, 'unit_card');
+    const tGlobal = await getTranslations('global');
+    const tUnitCard = await getTranslations('unit_card');
     const headersList = headers();
     const host = headersList.get('host');
 

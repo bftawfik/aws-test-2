@@ -3,14 +3,14 @@ import Link from 'next/link';
 import { useLocale } from 'next-intl';
 import { DEFAULT_LOCALE } from '@/constants';
 import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { Error404V2Icon } from '@/ui/svg';
 
 export default async function Error404V2() {
     // Read localization
     const locale = useLocale();
     // Read translations
-    const tErrorPages = await getTranslator(locale, 'error_pages');
+    const tErrorPages = await getTranslations('error_pages');
     const urlLocaleSegment = getUrlLocaleSegment(locale);
 
     return (

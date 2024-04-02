@@ -7,14 +7,14 @@ import SwiperClientWrapper from './SwiperClientWrapper/SwiperClientWrapper';
 // import { getServerSession } from 'next-auth';
 import SlidesHolder from './SlidesHolder/SlidesHolder';
 import NeighborhoodCard from '../Card';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 export default async function NeighborhoodLargeSlider({
     locale,
 }: {
     locale: string;
 }) {
     // Read localization
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
 
     // TODO: hide server session until solve forge problem
     // const session = await getServerSession();

@@ -1,7 +1,7 @@
 import Breadcrumbs from '@/ui/breadcrumbs';
 import { TAB_SHORT } from '@/constants';
 import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { getSingleNeighborhood } from '@/actions/getSingleNeighborhood';
 
 interface NeighborhoodInnerBreadcrumbsProps {
@@ -13,7 +13,7 @@ const NeighborhoodInnerBreadcrumbs = async ({
     locale,
     slug,
 }: NeighborhoodInnerBreadcrumbsProps) => {
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
     const urlLocaleSegment = getUrlLocaleSegment(locale);
     const locationDetails = await getSingleNeighborhood(slug, locale);
 

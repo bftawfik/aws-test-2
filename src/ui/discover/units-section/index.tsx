@@ -5,7 +5,7 @@ import React from 'react';
 // import { useSession } from 'next-auth/react';
 import { formatBoundsToBackend } from '@/helpers';
 import NoResults from '@/ui/empty-states/no-search-results';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import ContentsWrapper from '../discover-listing/ContentsWrapper/ContentsWrapper';
 import SimplePagination from '@/ui/simplePagination';
 import { headers } from 'next/headers';
@@ -37,9 +37,9 @@ const UnitsSection = async ({
     cookieDiscoverView,
 }: UnitsSectionProps) => {
     // Read translations
-    const tEmptyState = await getTranslator(locale, 'empty_state');
-    const tGlobal = await getTranslator(locale, 'global');
-    const tUnitCard = await getTranslator(locale, 'unit_card');
+    const tEmptyState = await getTranslations('empty_state');
+    const tGlobal = await getTranslations('global');
+    const tUnitCard = await getTranslations('unit_card');
 
     const headersList = headers();
     const pathName = headersList.get('x-invoke-path') || '';

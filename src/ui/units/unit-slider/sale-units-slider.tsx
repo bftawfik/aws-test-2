@@ -5,12 +5,12 @@ import getFilteredUnitsOld from '@/actions/units/getFilteredUnitsOld';
 import MainClientSwiperWrapper from './MainClientSwiperWrapper/MainClientSwiperWrapper';
 import { UnitCard } from '../unit-card-v2';
 import { headers } from 'next/headers';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 // import { getServerSession } from 'next-auth';
 
 export default async function UnitsSlider({ locale }: { locale: string }) {
-    const tGlobal = await getTranslator(locale, 'global');
-    const tUnitCard = await getTranslator(locale, 'unit_card');
+    const tGlobal = await getTranslations('global');
+    const tUnitCard = await getTranslations('unit_card');
     // slider arrows classes
     const next = 'sale-unit-image-swiper-button-next';
     const prev = 'sale-unit-image-swiper-button-prev';

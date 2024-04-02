@@ -8,7 +8,7 @@ import {
 } from '@/constants';
 import { CallSmallIcon, WhatsappSmallIcon } from '@/ui/svg';
 import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { headers } from 'next/headers';
 import { Project } from '@/types';
 import { generateProjectWhatsappTextEncoded } from '@/helpers/generateProjectWhatsappTextEncoded';
@@ -24,7 +24,7 @@ const ProjectDetailsHeader_V3 = async ({
     project,
     locale,
 }: ProjectDetailsHeader_V3Props) => {
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
     const urlLocaleSegment = getUrlLocaleSegment(locale);
     const headersList = headers();
     const host = headersList.get('host');

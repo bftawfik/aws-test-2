@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocale } from 'next-intl';
 import { UnitCard } from '../../unit-card-v2';
 import { headers } from 'next/headers';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { REVALIDATE_SECONDS } from '@/constants';
 
 interface FromTheDeveloperProps {
@@ -14,8 +14,8 @@ const FromTheDeveloper = async ({
     locale,
 }: FromTheDeveloperProps) => {
     // Read localization
-    const tGlobal = await getTranslator(locale, 'global');
-    const tUnitCard = await getTranslator(locale, 'unit_card');
+    const tGlobal = await getTranslations('global');
+    const tUnitCard = await getTranslations('unit_card');
 
     const response = await fetch(
         `${process.env.BASE_URL}/get-units?include=project,developer,unitType&filter[developer.id]=${developerId}&filter[sale_type]=sale&per_page=10

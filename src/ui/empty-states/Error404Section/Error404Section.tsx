@@ -6,13 +6,13 @@ import Link from 'next/link';
 import { useLocale } from 'next-intl';
 import { DEFAULT_LOCALE } from '@/constants';
 import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 export default async function Error404Section() {
     // Read localization
     const locale = useLocale();
     // Read translations
-    const tNotFound = await getTranslator(locale, 'notFound');
+    const tNotFound = await getTranslations('notFound');
     const urlLocaleSegment = getUrlLocaleSegment(locale);
 
     return (

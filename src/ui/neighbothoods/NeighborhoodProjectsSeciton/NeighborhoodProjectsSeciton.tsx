@@ -7,7 +7,7 @@ import { ProjectCardV2 } from '@/ui/projects/ProjectCardV2';
 import { headers } from 'next/headers';
 import { parseUrl } from '@/helpers/url-segments';
 import { redirect } from 'next/navigation';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
 import SimplePagination from '@/ui/simplePagination';
 import { Project } from '@/types';
@@ -25,7 +25,7 @@ const NeighborhoodProjectsSeciton = async ({
     const pathName = headersList.get('x-invoke-path') || '';
 
     // Read translations
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
 
     const { pg } = parseUrl(pathName);
 

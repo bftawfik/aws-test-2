@@ -3,7 +3,7 @@ import HomeProjectsSwiper from './HomeProjectsSwiper/HomeProjectsSwiper';
 // import { getServerSession } from 'next-auth';
 import { ProjectCardV2 } from '../ProjectCardV2';
 import { Project } from '@/types';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 interface ProjectsSliderV2Props {
     locale: string;
@@ -26,7 +26,7 @@ export default async function ProjectsSliderV2({
         undefined,
         GET_SOLD_OUT
     );
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
 
     return (
         <HomeProjectsSwiper>

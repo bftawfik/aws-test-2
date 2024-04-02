@@ -4,13 +4,13 @@ import { useLocale, useTranslations } from 'next-intl';
 import { DEFAULT_LOCALE } from '@/constants';
 import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
 import { GenericErrorIcon } from '@/ui/svg';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 export default async function GenericError() {
     // Read localization
     const locale = useLocale();
     // Read translations
-    const tErrorPages = await getTranslator(locale, 'error_pages');
+    const tErrorPages = await getTranslations('error_pages');
 
     const urlLocaleSegment = getUrlLocaleSegment(locale);
 

@@ -2,7 +2,7 @@ import getFilteredProjects from '@/actions/getFilteredProjects';
 import { Project } from '@/types';
 import { formatBoundsToBackend } from '@/helpers';
 import NoResults from '@/ui/empty-states/no-search-results';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import ContentsWrapper from '../discover-listing/ContentsWrapper/ContentsWrapper';
 import { ProjectCardV2 } from '@/ui/projects/ProjectCardV2';
 import { headers } from 'next/headers';
@@ -30,8 +30,8 @@ const ProjectsSection = async ({
     currentUrl,
     cookieDiscoverView,
 }: ProjectsSectionProps) => {
-    const tEmptyState = await getTranslator(locale, 'empty_state');
-    const tGlobal = await getTranslator(locale, 'global');
+    const tEmptyState = await getTranslations('empty_state');
+    const tGlobal = await getTranslations('global');
 
     const headersList = headers();
     const pathName = headersList.get('x-invoke-path') || '';

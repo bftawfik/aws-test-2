@@ -5,7 +5,7 @@ import WishlistButton from '@/ui/wishlist-button';
 import Image from 'next/image';
 import React from 'react';
 import { Project } from '@/types';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 interface DetailsHeaderV2Props {
     project: Project;
@@ -14,7 +14,7 @@ interface DetailsHeaderV2Props {
 
 const DetailsHeaderV2 = async ({ project, locale }: DetailsHeaderV2Props) => {
     // Read translations
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
 
     return (
         <section className="my-8 items-center justify-between gap-4 lg:flex">

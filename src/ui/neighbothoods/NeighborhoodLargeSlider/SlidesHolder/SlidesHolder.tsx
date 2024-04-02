@@ -3,11 +3,11 @@ import { Location } from '@/types';
 import React from 'react';
 import NeighborhoodCard from '../../Card';
 import { useLocale } from 'next-intl';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 const SlidesHolder = async ({ data }: { data: Location[] }) => {
     const locale = useLocale();
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
 
     return data?.map((location, i) => (
         <div

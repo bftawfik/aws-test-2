@@ -1,5 +1,5 @@
 import { Coord } from '@/types';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import InnerMap from '../../inner-map';
 
 interface NeighborhoodMapSectionProps {
@@ -11,7 +11,7 @@ export const NeighborhoodMapSection = async ({
     coords,
 }: NeighborhoodMapSectionProps) => {
     // Read translations
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
     return coords ? (
         <div className="min-h-140 mt-8 w-full lg:mt-16">
             <h2 className="mb-2 text-xl  font-semibold  capitalize leading-none text-black lg:mb-5 lg:text-2xl">

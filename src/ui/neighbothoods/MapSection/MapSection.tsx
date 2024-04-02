@@ -1,6 +1,6 @@
 import InnerMap from '../inner-map';
 import { getSingleLocation } from '@/actions/useGetNeighborhoodsInnersQuery';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 
 interface MapSectionProps {
     lang: string;
@@ -8,7 +8,7 @@ interface MapSectionProps {
 }
 export const MapSection = async ({ lang, slug }: MapSectionProps) => {
     // Read translations
-    const tGlobal = await getTranslator(lang, 'global');
+    const tGlobal = await getTranslations('global');
 
     const neighborhood = await getSingleLocation(slug, lang);
 

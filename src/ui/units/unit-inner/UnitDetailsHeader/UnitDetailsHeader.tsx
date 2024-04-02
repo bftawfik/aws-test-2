@@ -9,7 +9,7 @@ import {
 import { CallSmallIcon, WhatsappSmallIcon } from '@/ui/svg';
 import { useLocale } from 'next-intl';
 import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { headers } from 'next/headers';
 import { Unit } from '@/types';
 import { generateUnitWhatsappTextEncoded } from '@/helpers/generateUnitWhatsappTextEncoded';
@@ -18,7 +18,7 @@ interface UnitDetailsHeaderProps {
 }
 const UnitDetailsHeader = async ({ unit }: UnitDetailsHeaderProps) => {
     const locale = useLocale();
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
     const urlLocaleSegment = getUrlLocaleSegment(locale);
     const headersList = headers();
     const host = headersList.get('host');
