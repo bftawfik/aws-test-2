@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>{process.env.NEXT_PUBLIC_ANALYTICS_ID}</div>
       <div>Hello world</div>
-      <Link href={"/page2"}>Page2</Link>
+      <Link href={"/"}>Back</Link>
     </main>
   );
 }
