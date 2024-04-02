@@ -1,0 +1,142 @@
+'use client';
+import {
+    hotline,
+    whatsapp,
+    emptyCountryCode,
+    egCountryCode,
+} from '@/constants';
+import getNumberFormat from '@/helpers/get-number-format';
+import { CallSmallIcon, LocationMarkerIcon, WhatsappSmallIcon } from '@/ui/svg';
+import React, { useState, useRef, useEffect } from 'react';
+import { useLocale, useTranslations } from 'next-intl';
+import useCurrentUrl from '@/hooks/useCurrentUrl';
+import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
+import { generateUnitWhatsappTextEncoded } from '@/helpers/generateUnitWhatsappTextEncoded';
+
+const ScrollHeader = ({ unit }: any) => {
+    const locale = useLocale();
+    // Read translations
+    const tGlobal = useTranslations('global');
+    const urlLocaleSegment = getUrlLocaleSegment(locale);
+
+    const [view, setView] = useState(false);
+    const intersectionRef = useRef<HTMLDivElement>(null);
+
+    const handleScrolling = () => {
+        if (intersectionRef) {
+            const offsetTop = intersectionRef.current?.offsetTop ?? 200;
+            const position = window.pageYOffset;
+            setView(position > offsetTop);
+        }
+    };
+    useEffect(() => {
+        window.addEventListener('scroll', handleScrolling);
+        return () => window.removeEventListener('scroll', handleScrolling);
+    }, []);
+    const unitLink = useCurrentUrl(`${urlLocaleSegment}/units/${unit?.slug}`);
+
+    // Whatsapp
+    const encodedWhatsappText = generateUnitWhatsappTextEncoded(
+        unit.title,
+        unit.type,
+        unit.price,
+        unit.address,
+        unitLink
+    );
+
+    return (
+        <div className="w-full" ref={intersectionRef}>
+            {view && (
+                <div className=" duration-600 min-h-12 fixed left-0 top-0 z-50 hidden w-full bg-gray-100 shadow-sm transition-all sm:px-6 lg:block">
+                    <div className="container mx-auto items-center justify-between px-3 py-5 md:flex">
+                        <div className="w-full flex-wrap items-center justify-between lg:flex">
+                            <div className="flex w-full items-center justify-between gap-8">
+                                <div>
+                                    <h3 className="font-bold capitalize">
+                                        {unit.title}
+                                    </h3>
+                                    <div className="flex w-full items-center gap-1 py-1 text-xs text-gray-800">
+                                        <LocationMarkerIcon />
+
+                                        <p className="max-w-xs truncate md:max-w-sm">
+                                            {unit.address}
+                                        </p>
+                                    </div>
+                                </div>{' '}
+                                <div className="flex gap-8">
+                                    <div className="flex items-center">
+                                        <div data-v-0eea979a="">
+                                            <span className="text-xs font-normal capitalize text-gray-500">
+                                                {tGlobal('starting_from')}
+                                            </span>
+                                            <div className="text-lg font-bold text-black">
+                                                {getNumberFormat(unit.price)}
+                                                <span className="ms-1 text-sm font-normal uppercase">
+                                                    {tGlobal('egp')}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {unit?.payment_type === 'installments' && (
+                                        <>
+                                            <div>
+                                                <span className="text-xs font-normal capitalize text-gray-500">
+                                                    {tGlobal(
+                                                        'min_down_payment'
+                                                    )}
+                                                </span>
+                                                <div className="text-lg font-bold text-black">
+                                                    {getNumberFormat(
+                                                        unit?.min_down_payment ||
+                                                            0
+                                                    )}
+                                                    <span className="ms-1 text-sm font-normal uppercase">
+                                                        {tGlobal('egp')}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <span className="text-xs font-normal capitalize text-gray-500">
+                                                    {tGlobal(
+                                                        'min_monthly_payment'
+                                                    )}
+                                                </span>
+                                                <div className="text-lg font-bold text-black">
+                                                    {getNumberFormat(
+                                                        unit?.min_month_payment ||
+                                                            0
+                                                    )}
+
+                                                    <span className="ms-1 text-sm font-normal uppercase">
+                                                        {tGlobal('egp')}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </>
+                                    )}
+                                </div>
+                                <nav className="flex items-center">
+                                    <a
+                                        href={`tel:${emptyCountryCode}${hotline}`}
+                                        className="group flex items-center justify-center rounded-full border p-3 text-sm font-medium capitalize text-black duration-150 hover:border-primary hover:bg-primary hover:text-white ltr:mr-2 rtl:ml-2"
+                                    >
+                                        <CallSmallIcon />
+                                    </a>
+                                    <a
+                                        href={`https://wa.me/${egCountryCode}${whatsapp}?text=${encodedWhatsappText}`}
+                                        target="_blank"
+                                        className="flex items-center justify-center rounded-full border border-primary bg-primary p-3 text-sm font-medium capitalize text-white duration-150"
+                                    >
+                                        <WhatsappSmallIcon />
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+};
+
+export default ScrollHeader;

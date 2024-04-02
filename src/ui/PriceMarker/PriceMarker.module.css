@@ -1,0 +1,39 @@
+
+  
+  .priceMarkerPopup {
+    position: relative;
+    height: 30px;
+    background-color: #CAE8DB;
+    border-radius: 6px;
+    @apply flex justify-center items-center border border-primary px-1
+  }
+  .priceMarkerPopup:before {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -8px;
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-top: 8px solid #4CB087;
+  }
+
+  .priceMarkerPopup:after {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -7px;
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;  
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-top: 8px solid #CAE8DB;
+  }
+  
+  
+  

@@ -1,0 +1,3 @@
+export const UNITS_MAP_DEFAULT_PAGE_SIZE = 200;
+export const PROJECTS_MAP_DEFAULT_PAGE_SIZE = 40;
+export const LIST_DEFAULT_PAGE_SIZE = 16;

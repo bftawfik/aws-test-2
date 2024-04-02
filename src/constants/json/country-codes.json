@@ -1,0 +1,2637 @@
+[
+    {
+        "name": "Spain",
+        "nativeName": {
+            "spa": { "official": "Reino de España", "common": "España" }
+        },
+        "flag": "https://flagcdn.com/es.svg",
+        "phoneCode": "+34"
+    },
+    {
+        "name": "Afghanistan",
+        "nativeName": {
+            "prs": {
+                "official": "جمهوری اسلامی افغانستان",
+                "common": "افغانستان"
+            },
+            "pus": {
+                "official": "د افغانستان اسلامي جمهوریت",
+                "common": "افغانستان"
+            },
+            "tuk": {
+                "official": "Owganystan Yslam Respublikasy",
+                "common": "Owganystan"
+            }
+        },
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+        "phoneCode": "+93"
+    },
+    {
+        "name": "Sudan",
+        "nativeName": {
+            "ara": { "official": "جمهورية السودان", "common": "السودان" },
+            "eng": { "official": "Republic of the Sudan", "common": "Sudan" }
+        },
+        "flag": "https://flagcdn.com/sd.svg",
+        "phoneCode": "+249"
+    },
+    {
+        "name": "Bulgaria",
+        "nativeName": {
+            "bul": { "official": "Република България", "common": "България" }
+        },
+        "flag": "https://flagcdn.com/bg.svg",
+        "phoneCode": "+359"
+    },
+    {
+        "name": "Germany",
+        "nativeName": {
+            "deu": {
+                "official": "Bundesrepublik Deutschland",
+                "common": "Deutschland"
+            }
+        },
+        "flag": "https://flagcdn.com/de.svg",
+        "phoneCode": "+49"
+    },
+    {
+        "name": "Lithuania",
+        "nativeName": {
+            "lit": { "official": "Lietuvos Respublikos", "common": "Lietuva" }
+        },
+        "flag": "https://flagcdn.com/lt.svg",
+        "phoneCode": "+370"
+    },
+    {
+        "name": "Mayotte",
+        "nativeName": {
+            "fra": { "official": "Département de Mayotte", "common": "Mayotte" }
+        },
+        "flag": "https://flagcdn.com/yt.svg",
+        "phoneCode": "+262"
+    },
+    {
+        "name": "Marshall Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of the Marshall Islands",
+                "common": "Marshall Islands"
+            },
+            "mah": {
+                "official": "Republic of the Marshall Islands",
+                "common": "M̧ajeļ"
+            }
+        },
+        "flag": "https://flagcdn.com/mh.svg",
+        "phoneCode": "+692"
+    },
+    {
+        "name": "Poland",
+        "nativeName": {
+            "pol": { "official": "Rzeczpospolita Polska", "common": "Polska" }
+        },
+        "flag": "https://flagcdn.com/pl.svg",
+        "phoneCode": "+48"
+    },
+    {
+        "name": "Tokelau",
+        "nativeName": {
+            "eng": { "official": "Tokelau", "common": "Tokelau" },
+            "smo": { "official": "Tokelau", "common": "Tokelau" },
+            "tkl": { "official": "Tokelau", "common": "Tokelau" }
+        },
+        "flag": "https://flagcdn.com/tk.svg",
+        "phoneCode": "+690"
+    },
+    {
+        "name": "Tanzania",
+        "nativeName": {
+            "eng": {
+                "official": "United Republic of Tanzania",
+                "common": "Tanzania"
+            },
+            "swa": {
+                "official": "Jamhuri ya Muungano wa Tanzania",
+                "common": "Tanzania"
+            }
+        },
+        "flag": "https://flagcdn.com/tz.svg",
+        "phoneCode": "+255"
+    },
+    {
+        "name": "Macau",
+        "nativeName": {
+            "por": {
+                "official": "Região Administrativa Especial de Macau da República Popular da China",
+                "common": "Macau"
+            },
+            "zho": {
+                "official": "中华人民共和国澳门特别行政区",
+                "common": "澳门"
+            }
+        },
+        "flag": "https://flagcdn.com/mo.svg",
+        "phoneCode": "+853"
+    },
+    {
+        "name": "Timor-Leste",
+        "nativeName": {
+            "por": {
+                "official": "República Democrática de Timor-Leste",
+                "common": "Timor-Leste"
+            },
+            "tet": {
+                "official": "Repúblika Demokrátika Timór-Leste",
+                "common": "Timór-Leste"
+            }
+        },
+        "flag": "https://flagcdn.com/tl.svg",
+        "phoneCode": "+670"
+    },
+    {
+        "name": "Togo",
+        "nativeName": {
+            "fra": { "official": "République togolaise", "common": "Togo" }
+        },
+        "flag": "https://flagcdn.com/tg.svg",
+        "phoneCode": "+228"
+    },
+    {
+        "name": "Czechia",
+        "nativeName": {
+            "ces": { "official": "Česká republika", "common": "Česko" },
+            "slk": { "official": "Česká republika", "common": "Česko" }
+        },
+        "flag": "https://flagcdn.com/cz.svg",
+        "phoneCode": "+420"
+    },
+    {
+        "name": "Monaco",
+        "nativeName": {
+            "fra": { "official": "Principauté de Monaco", "common": "Monaco" }
+        },
+        "flag": "https://flagcdn.com/mc.svg",
+        "phoneCode": "+377"
+    },
+    {
+        "name": "Uganda",
+        "nativeName": {
+            "eng": { "official": "Republic of Uganda", "common": "Uganda" },
+            "swa": { "official": "Republic of Uganda", "common": "Uganda" }
+        },
+        "flag": "https://flagcdn.com/ug.svg",
+        "phoneCode": "+256"
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of Trinidad and Tobago",
+                "common": "Trinidad and Tobago"
+            }
+        },
+        "flag": "https://flagcdn.com/tt.svg",
+        "phoneCode": "+1868"
+    },
+    {
+        "name": "Algeria",
+        "nativeName": {
+            "ara": {
+                "official": "الجمهورية الديمقراطية الشعبية الجزائرية",
+                "common": "الجزائر"
+            }
+        },
+        "flag": "https://flagcdn.com/dz.svg",
+        "phoneCode": "+213"
+    },
+    {
+        "name": "Ukraine",
+        "nativeName": { "ukr": { "official": "Україна", "common": "Україна" } },
+        "flag": "https://flagcdn.com/ua.svg",
+        "phoneCode": "+380"
+    },
+    {
+        "name": "Estonia",
+        "nativeName": {
+            "est": { "official": "Eesti Vabariik", "common": "Eesti" }
+        },
+        "flag": "https://flagcdn.com/ee.svg",
+        "phoneCode": "+372"
+    },
+    {
+        "name": "Greece",
+        "nativeName": {
+            "ell": { "official": "Ελληνική Δημοκρατία", "common": "Ελλάδα" }
+        },
+        "flag": "https://flagcdn.com/gr.svg",
+        "phoneCode": "+30"
+    },
+    {
+        "name": "Mauritania",
+        "nativeName": {
+            "ara": {
+                "official": "الجمهورية الإسلامية الموريتانية",
+                "common": "موريتانيا"
+            }
+        },
+        "flag": "https://flagcdn.com/mr.svg",
+        "phoneCode": "+222"
+    },
+    {
+        "name": "Georgia",
+        "nativeName": {
+            "kat": { "official": "საქართველო", "common": "საქართველო" }
+        },
+        "flag": "https://flagcdn.com/ge.svg",
+        "phoneCode": "+995"
+    },
+    {
+        "name": "Sint Maarten",
+        "nativeName": {
+            "eng": { "official": "Sint Maarten", "common": "Sint Maarten" },
+            "fra": { "official": "Saint-Martin", "common": "Saint-Martin" },
+            "nld": { "official": "Sint Maarten", "common": "Sint Maarten" }
+        },
+        "flag": "https://flagcdn.com/sx.svg",
+        "phoneCode": "+1721"
+    },
+    {
+        "name": "Namibia",
+        "nativeName": {
+            "afr": { "official": "Republiek van Namibië", "common": "Namibië" },
+            "deu": { "official": "Republik Namibia", "common": "Namibia" },
+            "eng": { "official": "Republic of Namibia", "common": "Namibia" },
+            "her": { "official": "Republic of Namibia", "common": "Namibia" },
+            "hgm": { "official": "Republic of Namibia", "common": "Namibia" },
+            "kwn": { "official": "Republic of Namibia", "common": "Namibia" },
+            "loz": { "official": "Republic of Namibia", "common": "Namibia" },
+            "ndo": { "official": "Republic of Namibia", "common": "Namibia" },
+            "tsn": { "official": "Lefatshe la Namibia", "common": "Namibia" }
+        },
+        "flag": "https://flagcdn.com/na.svg",
+        "phoneCode": "+264"
+    },
+    {
+        "name": "North Macedonia",
+        "nativeName": {
+            "mkd": {
+                "official": "Република Северна Македонија",
+                "common": "Македонија"
+            }
+        },
+        "flag": "https://flagcdn.com/mk.svg",
+        "phoneCode": "+389"
+    },
+    {
+        "name": "Mauritius",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of Mauritius",
+                "common": "Mauritius"
+            },
+            "fra": { "official": "République de Maurice", "common": "Maurice" },
+            "mfe": { "official": "Republik Moris", "common": "Moris" }
+        },
+        "flag": "https://flagcdn.com/mu.svg",
+        "phoneCode": "+230"
+    },
+    {
+        "name": "Kiribati",
+        "nativeName": {
+            "eng": {
+                "official": "Independent and Sovereign Republic of Kiribati",
+                "common": "Kiribati"
+            },
+            "gil": { "official": "Ribaberiki Kiribati", "common": "Kiribati" }
+        },
+        "flag": "https://flagcdn.com/ki.svg",
+        "phoneCode": "+686"
+    },
+    {
+        "name": "Republic of the Congo",
+        "nativeName": {
+            "fra": {
+                "official": "République du Congo",
+                "common": "République du Congo"
+            },
+            "kon": {
+                "official": "Repubilika ya Kongo",
+                "common": "Repubilika ya Kongo"
+            },
+            "lin": {
+                "official": "Republíki ya Kongó",
+                "common": "Republíki ya Kongó"
+            }
+        },
+        "flag": "https://flagcdn.com/cg.svg",
+        "phoneCode": "+242"
+    },
+    {
+        "name": "Equatorial Guinea",
+        "nativeName": {
+            "fra": {
+                "official": "République de la Guinée Équatoriale",
+                "common": "Guinée équatoriale"
+            },
+            "por": {
+                "official": "República da Guiné Equatorial",
+                "common": "Guiné Equatorial"
+            },
+            "spa": {
+                "official": "República de Guinea Ecuatorial",
+                "common": "Guinea Ecuatorial"
+            }
+        },
+        "flag": "https://flagcdn.com/gq.svg",
+        "phoneCode": "+240"
+    },
+    {
+        "name": "British Indian Ocean Territory",
+        "nativeName": {
+            "eng": {
+                "official": "British Indian Ocean Territory",
+                "common": "British Indian Ocean Territory"
+            }
+        },
+        "flag": "https://flagcdn.com/io.svg",
+        "phoneCode": "+246"
+    },
+    {
+        "name": "Niue",
+        "nativeName": {
+            "eng": { "official": "Niue", "common": "Niue" },
+            "niu": { "official": "Niuē", "common": "Niuē" }
+        },
+        "flag": "https://flagcdn.com/nu.svg",
+        "phoneCode": "+683"
+    },
+    {
+        "name": "Kosovo",
+        "nativeName": {
+            "sqi": { "official": "Republika e Kosovës", "common": "Kosova" },
+            "srp": { "official": "Република Косово", "common": "Косово" }
+        },
+        "flag": "https://flagcdn.com/xk.svg",
+        "phoneCode": "+383"
+    },
+    {
+        "name": "Palau",
+        "nativeName": {
+            "eng": { "official": "Republic of Palau", "common": "Palau" },
+            "pau": { "official": "Beluu er a Belau", "common": "Belau" }
+        },
+        "flag": "https://flagcdn.com/pw.svg",
+        "phoneCode": "+680"
+    },
+    {
+        "name": "Qatar",
+        "nativeName": { "ara": { "official": "دولة قطر", "common": "قطر" } },
+        "flag": "https://flagcdn.com/qa.svg",
+        "phoneCode": "+974"
+    },
+    {
+        "name": "United States",
+        "nativeName": {
+            "eng": {
+                "official": "United States of America",
+                "common": "United States"
+            }
+        },
+        "flag": "https://flagcdn.com/us.svg",
+        "phoneCode": "+1"
+    },
+    {
+        "name": "Cayman Islands",
+        "nativeName": {
+            "eng": { "official": "Cayman Islands", "common": "Cayman Islands" }
+        },
+        "flag": "https://flagcdn.com/ky.svg",
+        "phoneCode": "+1345"
+    },
+    {
+        "name": "Botswana",
+        "nativeName": {
+            "eng": { "official": "Republic of Botswana", "common": "Botswana" },
+            "tsn": { "official": "Lefatshe la Botswana", "common": "Botswana" }
+        },
+        "flag": "https://flagcdn.com/bw.svg",
+        "phoneCode": "+267"
+    },
+    {
+        "name": "Palestine",
+        "nativeName": {
+            "ara": { "official": "دولة فلسطين", "common": "فلسطين" }
+        },
+        "flag": "https://flagcdn.com/ps.svg",
+        "phoneCode": "+970"
+    },
+    {
+        "name": "South Africa",
+        "nativeName": {
+            "afr": {
+                "official": "Republiek van Suid-Afrika",
+                "common": "South Africa"
+            },
+            "eng": {
+                "official": "Republic of South Africa",
+                "common": "South Africa"
+            },
+            "nbl": {
+                "official": "IRiphabliki yeSewula Afrika",
+                "common": "Sewula Afrika"
+            },
+            "nso": {
+                "official": "Rephaboliki ya Afrika-Borwa ",
+                "common": "Afrika-Borwa"
+            },
+            "sot": {
+                "official": "Rephaboliki ya Afrika Borwa",
+                "common": "Afrika Borwa"
+            },
+            "ssw": {
+                "official": "IRiphabhulikhi yeNingizimu Afrika",
+                "common": "Ningizimu Afrika"
+            },
+            "tsn": {
+                "official": "Rephaboliki ya Aforika Borwa",
+                "common": "Aforika Borwa"
+            },
+            "tso": {
+                "official": "Riphabliki ra Afrika Dzonga",
+                "common": "Afrika Dzonga"
+            },
+            "ven": {
+                "official": "Riphabuḽiki ya Afurika Tshipembe",
+                "common": "Afurika Tshipembe"
+            },
+            "xho": {
+                "official": "IRiphabliki yaseMzantsi Afrika",
+                "common": "Mzantsi Afrika"
+            },
+            "zul": {
+                "official": "IRiphabliki yaseNingizimu Afrika",
+                "common": "Ningizimu Afrika"
+            }
+        },
+        "flag": "https://flagcdn.com/za.svg",
+        "phoneCode": "+27"
+    },
+    {
+        "name": "Vietnam",
+        "nativeName": {
+            "vie": {
+                "official": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+                "common": "Việt Nam"
+            }
+        },
+        "flag": "https://flagcdn.com/vn.svg",
+        "phoneCode": "+84"
+    },
+    {
+        "name": "Jersey",
+        "nativeName": {
+            "eng": { "official": "Bailiwick of Jersey", "common": "Jersey" },
+            "fra": { "official": "Bailliage de Jersey", "common": "Jersey" },
+            "nrf": { "official": "Bailliage dé Jèrri", "common": "Jèrri" }
+        },
+        "flag": "https://flagcdn.com/je.svg",
+        "phoneCode": "+44"
+    },
+    {
+        "name": "Guyana",
+        "nativeName": {
+            "eng": {
+                "official": "Co-operative Republic of Guyana",
+                "common": "Guyana"
+            }
+        },
+        "flag": "https://flagcdn.com/gy.svg",
+        "phoneCode": "+592"
+    },
+    {
+        "name": "Tuvalu",
+        "nativeName": {
+            "eng": { "official": "Tuvalu", "common": "Tuvalu" },
+            "tvl": { "official": "Tuvalu", "common": "Tuvalu" }
+        },
+        "flag": "https://flagcdn.com/tv.svg",
+        "phoneCode": "+688"
+    },
+    {
+        "name": "Jordan",
+        "nativeName": {
+            "ara": {
+                "official": "المملكة الأردنية الهاشمية",
+                "common": "الأردن"
+            }
+        },
+        "flag": "https://flagcdn.com/jo.svg",
+        "phoneCode": "+962"
+    },
+    {
+        "name": "Papua New Guinea",
+        "nativeName": {
+            "eng": {
+                "official": "Independent State of Papua New Guinea",
+                "common": "Papua New Guinea"
+            },
+            "hmo": {
+                "official": "Independen Stet bilong Papua Niugini",
+                "common": "Papua Niu Gini"
+            },
+            "tpi": {
+                "official": "Independen Stet bilong Papua Niugini",
+                "common": "Papua Niugini"
+            }
+        },
+        "flag": "https://flagcdn.com/pg.svg",
+        "phoneCode": "+675"
+    },
+    {
+        "name": "Bahamas",
+        "nativeName": {
+            "eng": {
+                "official": "Commonwealth of the Bahamas",
+                "common": "Bahamas"
+            }
+        },
+        "flag": "https://flagcdn.com/bs.svg",
+        "phoneCode": "+1242"
+    },
+    {
+        "name": "Cape Verde",
+        "nativeName": {
+            "por": {
+                "official": "República de Cabo Verde",
+                "common": "Cabo Verde"
+            }
+        },
+        "flag": "https://flagcdn.com/cv.svg",
+        "phoneCode": "+238"
+    },
+    {
+        "name": "Oman",
+        "nativeName": { "ara": { "official": "سلطنة عمان", "common": "عمان" } },
+        "flag": "https://flagcdn.com/om.svg",
+        "phoneCode": "+968"
+    },
+    {
+        "name": "Venezuela",
+        "nativeName": {
+            "spa": {
+                "official": "República Bolivariana de Venezuela",
+                "common": "Venezuela"
+            }
+        },
+        "flag": "https://flagcdn.com/ve.svg",
+        "phoneCode": "+58"
+    },
+    {
+        "name": "Bolivia",
+        "nativeName": {
+            "aym": { "official": "Wuliwya Suyu", "common": "Wuliwya" },
+            "grn": { "official": "Tetã Volívia", "common": "Volívia" },
+            "que": { "official": "Buliwya Mamallaqta", "common": "Buliwya" },
+            "spa": {
+                "official": "Estado Plurinacional de Bolivia",
+                "common": "Bolivia"
+            }
+        },
+        "flag": "https://flagcdn.com/bo.svg",
+        "phoneCode": "+591"
+    },
+    {
+        "name": "Egypt",
+        "nativeName": {
+            "ara": { "official": "جمهورية مصر العربية", "common": "مصر" }
+        },
+        "flag": "https://flagcdn.com/eg.svg",
+        "phoneCode": "+20"
+    },
+    {
+        "name": "Canada",
+        "nativeName": {
+            "eng": { "official": "Canada", "common": "Canada" },
+            "fra": { "official": "Canada", "common": "Canada" }
+        },
+        "flag": "https://flagcdn.com/ca.svg",
+        "phoneCode": "+1"
+    },
+    {
+        "name": "Norway",
+        "nativeName": {
+            "nno": { "official": "Kongeriket Noreg", "common": "Noreg" },
+            "nob": { "official": "Kongeriket Norge", "common": "Norge" },
+            "smi": { "official": "Norgga gonagasriika", "common": "Norgga" }
+        },
+        "flag": "https://flagcdn.com/no.svg",
+        "phoneCode": "+47"
+    },
+    {
+        "name": "Kyrgyzstan",
+        "nativeName": {
+            "kir": {
+                "official": "Кыргыз Республикасы",
+                "common": "Кыргызстан"
+            },
+            "rus": { "official": "Кыргызская Республика", "common": "Киргизия" }
+        },
+        "flag": "https://flagcdn.com/kg.svg",
+        "phoneCode": "+996"
+    },
+    {
+        "name": "Armenia",
+        "nativeName": {
+            "hye": {
+                "official": "Հայաստանի Հանրապետություն",
+                "common": "Հայաստան"
+            }
+        },
+        "flag": "https://flagcdn.com/am.svg",
+        "phoneCode": "+374"
+    },
+    {
+        "name": "DR Congo",
+        "nativeName": {
+            "fra": {
+                "official": "République démocratique du Congo",
+                "common": "RD Congo"
+            },
+            "kon": {
+                "official": "Repubilika ya Kongo Demokratiki",
+                "common": "Repubilika ya Kongo Demokratiki"
+            },
+            "lin": {
+                "official": "Republiki ya Kongó Demokratiki",
+                "common": "Republiki ya Kongó Demokratiki"
+            },
+            "lua": {
+                "official": "Ditunga dia Kongu wa Mungalaata",
+                "common": "Ditunga dia Kongu wa Mungalaata"
+            },
+            "swa": {
+                "official": "Jamhuri ya Kidemokrasia ya Kongo",
+                "common": "Jamhuri ya Kidemokrasia ya Kongo"
+            }
+        },
+        "flag": "https://flagcdn.com/cd.svg",
+        "phoneCode": "+243"
+    },
+    {
+        "name": "Puerto Rico",
+        "nativeName": {
+            "eng": {
+                "official": "Commonwealth of Puerto Rico",
+                "common": "Puerto Rico"
+            },
+            "spa": {
+                "official": "Estado Libre Asociado de Puerto Rico",
+                "common": "Puerto Rico"
+            }
+        },
+        "flag": "https://flagcdn.com/pr.svg",
+        "phoneCode": "+1"
+    },
+    {
+        "name": "Liechtenstein",
+        "nativeName": {
+            "deu": {
+                "official": "Fürstentum Liechtenstein",
+                "common": "Liechtenstein"
+            }
+        },
+        "flag": "https://flagcdn.com/li.svg",
+        "phoneCode": "+423"
+    },
+    {
+        "name": "Eswatini",
+        "nativeName": {
+            "eng": { "official": "Kingdom of Eswatini", "common": "Eswatini" },
+            "ssw": { "official": "Umbuso weSwatini", "common": "eSwatini" }
+        },
+        "flag": "https://flagcdn.com/sz.svg",
+        "phoneCode": "+268"
+    },
+    {
+        "name": "Faroe Islands",
+        "nativeName": {
+            "dan": { "official": "Færøerne", "common": "Færøerne" },
+            "fao": { "official": "Føroyar", "common": "Føroyar" }
+        },
+        "flag": "https://flagcdn.com/fo.svg",
+        "phoneCode": "+298"
+    },
+    {
+        "name": "Nigeria",
+        "nativeName": {
+            "eng": {
+                "official": "Federal Republic of Nigeria",
+                "common": "Nigeria"
+            }
+        },
+        "flag": "https://flagcdn.com/ng.svg",
+        "phoneCode": "+234"
+    },
+    {
+        "name": "Saint Martin",
+        "nativeName": {
+            "fra": { "official": "Saint-Martin", "common": "Saint-Martin" }
+        },
+        "flag": "https://flagcdn.com/mf.svg",
+        "phoneCode": "+590"
+    },
+    {
+        "name": "Guam",
+        "nativeName": {
+            "cha": { "official": "Guåhån", "common": "Guåhån" },
+            "eng": { "official": "Guam", "common": "Guam" },
+            "spa": { "official": "Guam", "common": "Guam" }
+        },
+        "flag": "https://flagcdn.com/gu.svg",
+        "phoneCode": "+1671"
+    },
+    {
+        "name": "Malawi",
+        "nativeName": {
+            "eng": { "official": "Republic of Malawi", "common": "Malawi" },
+            "nya": {
+                "official": "Chalo cha Malawi, Dziko la Malaŵi",
+                "common": "Malaŵi"
+            }
+        },
+        "flag": "https://flagcdn.com/mw.svg",
+        "phoneCode": "+265"
+    },
+    {
+        "name": "Åland Islands",
+        "nativeName": {
+            "swe": { "official": "Landskapet Åland", "common": "Åland" }
+        },
+        "flag": "https://flagcdn.com/ax.svg",
+        "phoneCode": "+35818"
+    },
+    {
+        "name": "São Tomé and Príncipe",
+        "nativeName": {
+            "por": {
+                "official": "República Democrática do São Tomé e Príncipe",
+                "common": "São Tomé e Príncipe"
+            }
+        },
+        "flag": "https://flagcdn.com/st.svg",
+        "phoneCode": "+239"
+    },
+    {
+        "name": "Falkland Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Falkland Islands",
+                "common": "Falkland Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/fk.svg",
+        "phoneCode": "+500"
+    },
+    {
+        "name": "Guatemala",
+        "nativeName": {
+            "spa": {
+                "official": "República de Guatemala",
+                "common": "Guatemala"
+            }
+        },
+        "flag": "https://flagcdn.com/gt.svg",
+        "phoneCode": "+502"
+    },
+    {
+        "name": "Barbados",
+        "nativeName": {
+            "eng": { "official": "Barbados", "common": "Barbados" }
+        },
+        "flag": "https://flagcdn.com/bb.svg",
+        "phoneCode": "+1246"
+    },
+    {
+        "name": "Ghana",
+        "nativeName": {
+            "eng": { "official": "Republic of Ghana", "common": "Ghana" }
+        },
+        "flag": "https://flagcdn.com/gh.svg",
+        "phoneCode": "+233"
+    },
+    {
+        "name": "Nicaragua",
+        "nativeName": {
+            "spa": {
+                "official": "República de Nicaragua",
+                "common": "Nicaragua"
+            }
+        },
+        "flag": "https://flagcdn.com/ni.svg",
+        "phoneCode": "+505"
+    },
+    {
+        "name": "Isle of Man",
+        "nativeName": {
+            "eng": { "official": "Isle of Man", "common": "Isle of Man" },
+            "glv": { "official": "Ellan Vannin or Mannin", "common": "Mannin" }
+        },
+        "flag": "https://flagcdn.com/im.svg",
+        "phoneCode": "+44"
+    },
+    {
+        "name": "Portugal",
+        "nativeName": {
+            "por": { "official": "República português", "common": "Portugal" }
+        },
+        "flag": "https://flagcdn.com/pt.svg",
+        "phoneCode": "+351"
+    },
+    {
+        "name": "Angola",
+        "nativeName": {
+            "por": { "official": "República de Angola", "common": "Angola" }
+        },
+        "flag": "https://flagcdn.com/ao.svg",
+        "phoneCode": "+244"
+    },
+    {
+        "name": "Dominican Republic",
+        "nativeName": {
+            "spa": {
+                "official": "República Dominicana",
+                "common": "República Dominicana"
+            }
+        },
+        "flag": "https://flagcdn.com/do.svg",
+        "phoneCode": "+1"
+    },
+    {
+        "name": "Albania",
+        "nativeName": {
+            "sqi": {
+                "official": "Republika e Shqipërisë",
+                "common": "Shqipëria"
+            }
+        },
+        "flag": "https://flagcdn.com/al.svg",
+        "phoneCode": "+355"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "nativeName": {
+            "por": {
+                "official": "República da Guiné-Bissau",
+                "common": "Guiné-Bissau"
+            },
+            "pov": {
+                "official": "República da Guiné-Bissau",
+                "common": "Guiné-Bissau"
+            }
+        },
+        "flag": "https://flagcdn.com/gw.svg",
+        "phoneCode": "+245"
+    },
+    {
+        "name": "Libya",
+        "nativeName": {
+            "ara": { "official": "الدولة ليبيا", "common": "‏ليبيا" }
+        },
+        "flag": "https://flagcdn.com/ly.svg",
+        "phoneCode": "+218"
+    },
+    {
+        "name": "Kuwait",
+        "nativeName": {
+            "ara": { "official": "دولة الكويت", "common": "الكويت" }
+        },
+        "flag": "https://flagcdn.com/kw.svg",
+        "phoneCode": "+965"
+    },
+    {
+        "name": "Bahrain",
+        "nativeName": {
+            "ara": { "official": "مملكة البحرين", "common": "‏البحرين" }
+        },
+        "flag": "https://flagcdn.com/bh.svg",
+        "phoneCode": "+973"
+    },
+    {
+        "name": "Turkmenistan",
+        "nativeName": {
+            "rus": { "official": "Туркменистан", "common": "Туркмения" },
+            "tuk": { "official": "Türkmenistan", "common": "Türkmenistan" }
+        },
+        "flag": "https://flagcdn.com/tm.svg",
+        "phoneCode": "+993"
+    },
+    {
+        "name": "Liberia",
+        "nativeName": {
+            "eng": { "official": "Republic of Liberia", "common": "Liberia" }
+        },
+        "flag": "https://flagcdn.com/lr.svg",
+        "phoneCode": "+231"
+    },
+    {
+        "name": "Burkina Faso",
+        "nativeName": {
+            "fra": {
+                "official": "République du Burkina",
+                "common": "Burkina Faso"
+            }
+        },
+        "flag": "https://flagcdn.com/bf.svg",
+        "phoneCode": "+226"
+    },
+    {
+        "name": "Latvia",
+        "nativeName": {
+            "lav": { "official": "Latvijas Republikas", "common": "Latvija" }
+        },
+        "flag": "https://flagcdn.com/lv.svg",
+        "phoneCode": "+371"
+    },
+    {
+        "name": "Russia",
+        "nativeName": {
+            "rus": { "official": "Российская Федерация", "common": "Россия" }
+        },
+        "flag": "https://flagcdn.com/ru.svg",
+        "phoneCode": "+7"
+    },
+    {
+        "name": "Philippines",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of the Philippines",
+                "common": "Philippines"
+            },
+            "fil": {
+                "official": "Republic of the Philippines",
+                "common": "Pilipinas"
+            }
+        },
+        "flag": "https://flagcdn.com/ph.svg",
+        "phoneCode": "+63"
+    },
+    {
+        "name": "New Zealand",
+        "nativeName": {
+            "eng": { "official": "New Zealand", "common": "New Zealand" },
+            "mri": { "official": "Aotearoa", "common": "Aotearoa" },
+            "nzs": { "official": "New Zealand", "common": "New Zealand" }
+        },
+        "flag": "https://flagcdn.com/nz.svg",
+        "phoneCode": "+64"
+    },
+    {
+        "name": "Cameroon",
+        "nativeName": {
+            "eng": { "official": "Republic of Cameroon", "common": "Cameroon" },
+            "fra": {
+                "official": "République du Cameroun",
+                "common": "Cameroun"
+            }
+        },
+        "flag": "https://flagcdn.com/cm.svg",
+        "phoneCode": "+237"
+    },
+    {
+        "name": "Ecuador",
+        "nativeName": {
+            "spa": { "official": "República del Ecuador", "common": "Ecuador" }
+        },
+        "flag": "https://flagcdn.com/ec.svg",
+        "phoneCode": "+593"
+    },
+    {
+        "name": "Anguilla",
+        "nativeName": {
+            "eng": { "official": "Anguilla", "common": "Anguilla" }
+        },
+        "flag": "https://flagcdn.com/ai.svg",
+        "phoneCode": "+1264"
+    },
+    {
+        "name": "Romania",
+        "nativeName": { "ron": { "official": "România", "common": "România" } },
+        "flag": "https://flagcdn.com/ro.svg",
+        "phoneCode": "+40"
+    },
+    {
+        "name": "India",
+        "nativeName": {
+            "eng": { "official": "Republic of India", "common": "India" },
+            "hin": { "official": "भारत गणराज्य", "common": "भारत" },
+            "tam": { "official": "இந்தியக் குடியரசு", "common": "இந்தியா" }
+        },
+        "flag": "https://flagcdn.com/in.svg",
+        "phoneCode": "+91"
+    },
+    {
+        "name": "Gabon",
+        "nativeName": {
+            "fra": { "official": "République gabonaise", "common": "Gabon" }
+        },
+        "flag": "https://flagcdn.com/ga.svg",
+        "phoneCode": "+241"
+    },
+    {
+        "name": "Myanmar",
+        "nativeName": {
+            "mya": {
+                "official": "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",
+                "common": "မြန်မာ"
+            }
+        },
+        "flag": "https://flagcdn.com/mm.svg",
+        "phoneCode": "+95"
+    },
+    {
+        "name": "Réunion",
+        "nativeName": {
+            "fra": { "official": "Ile de la Réunion", "common": "La Réunion" }
+        },
+        "flag": "https://flagcdn.com/re.svg",
+        "phoneCode": "+262"
+    },
+    {
+        "name": "American Samoa",
+        "nativeName": {
+            "eng": { "official": "American Samoa", "common": "American Samoa" },
+            "smo": { "official": "Sāmoa Amelika", "common": "Sāmoa Amelika" }
+        },
+        "flag": "https://flagcdn.com/as.svg",
+        "phoneCode": "+1684"
+    },
+    {
+        "name": "Montenegro",
+        "nativeName": {
+            "cnr": { "official": "Црна Гора", "common": "Црна Гора" }
+        },
+        "flag": "https://flagcdn.com/me.svg",
+        "phoneCode": "+382"
+    },
+    {
+        "name": "Belize",
+        "nativeName": {
+            "bjz": { "official": "Belize", "common": "Belize" },
+            "eng": { "official": "Belize", "common": "Belize" },
+            "spa": { "official": "Belice", "common": "Belice" }
+        },
+        "flag": "https://flagcdn.com/bz.svg",
+        "phoneCode": "+501"
+    },
+    {
+        "name": "Mongolia",
+        "nativeName": {
+            "mon": { "official": "Монгол улс", "common": "Монгол улс" }
+        },
+        "flag": "https://flagcdn.com/mn.svg",
+        "phoneCode": "+976"
+    },
+    {
+        "name": "Austria",
+        "nativeName": {
+            "bar": { "official": "Republik Österreich", "common": "Österreich" }
+        },
+        "flag": "https://flagcdn.com/at.svg",
+        "phoneCode": "+43"
+    },
+    {
+        "name": "Montserrat",
+        "nativeName": {
+            "eng": { "official": "Montserrat", "common": "Montserrat" }
+        },
+        "flag": "https://flagcdn.com/ms.svg",
+        "phoneCode": "+1664"
+    },
+    {
+        "name": "Saudi Arabia",
+        "nativeName": {
+            "ara": {
+                "official": "المملكة العربية السعودية",
+                "common": "العربية السعودية"
+            }
+        },
+        "flag": "https://flagcdn.com/sa.svg",
+        "phoneCode": "+966"
+    },
+    {
+        "name": "Hungary",
+        "nativeName": {
+            "hun": { "official": "Magyarország", "common": "Magyarország" }
+        },
+        "flag": "https://flagcdn.com/hu.svg",
+        "phoneCode": "+36"
+    },
+    {
+        "name": "Nauru",
+        "nativeName": {
+            "eng": { "official": "Republic of Nauru", "common": "Nauru" },
+            "nau": { "official": "Republic of Nauru", "common": "Nauru" }
+        },
+        "flag": "https://flagcdn.com/nr.svg",
+        "phoneCode": "+674"
+    },
+    {
+        "name": "Argentina",
+        "nativeName": {
+            "grn": { "official": "Argentine Republic", "common": "Argentina" },
+            "spa": { "official": "República Argentina", "common": "Argentina" }
+        },
+        "flag": "https://flagcdn.com/ar.svg",
+        "phoneCode": "+54"
+    },
+    {
+        "name": "Pitcairn Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Pitcairn Group of Islands",
+                "common": "Pitcairn Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/pn.svg",
+        "phoneCode": "+64"
+    },
+    {
+        "name": "Wallis and Futuna",
+        "nativeName": {
+            "fra": {
+                "official": "Territoire des îles Wallis et Futuna",
+                "common": "Wallis et Futuna"
+            }
+        },
+        "flag": "https://flagcdn.com/wf.svg",
+        "phoneCode": "+681"
+    },
+    {
+        "name": "Yemen",
+        "nativeName": {
+            "ara": { "official": "الجمهورية اليمنية", "common": "اليَمَن" }
+        },
+        "flag": "https://flagcdn.com/ye.svg",
+        "phoneCode": "+967"
+    },
+    {
+        "name": "Slovakia",
+        "nativeName": {
+            "slk": { "official": "Slovenská republika", "common": "Slovensko" }
+        },
+        "flag": "https://flagcdn.com/sk.svg",
+        "phoneCode": "+421"
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Turks and Caicos Islands",
+                "common": "Turks and Caicos Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/tc.svg",
+        "phoneCode": "+1649"
+    },
+    {
+        "name": "Sweden",
+        "nativeName": {
+            "swe": { "official": "Konungariket Sverige", "common": "Sverige" }
+        },
+        "flag": "https://flagcdn.com/se.svg",
+        "phoneCode": "+46"
+    },
+    {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "nativeName": {
+            "eng": {
+                "official": "Saint Helena, Ascension and Tristan da Cunha",
+                "common": "Saint Helena, Ascension and Tristan da Cunha"
+            }
+        },
+        "flag": "https://flagcdn.com/sh.svg",
+        "phoneCode": "+2"
+    },
+    {
+        "name": "Italy",
+        "nativeName": {
+            "ita": { "official": "Repubblica italiana", "common": "Italia" }
+        },
+        "flag": "https://flagcdn.com/it.svg",
+        "phoneCode": "+39"
+    },
+    {
+        "name": "Brazil",
+        "nativeName": {
+            "por": {
+                "official": "República Federativa do Brasil",
+                "common": "Brasil"
+            }
+        },
+        "flag": "https://flagcdn.com/br.svg",
+        "phoneCode": "+55"
+    },
+    {
+        "name": "South Sudan",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of South Sudan",
+                "common": "South Sudan"
+            }
+        },
+        "flag": "https://flagcdn.com/ss.svg",
+        "phoneCode": "+211"
+    },
+    {
+        "name": "Cyprus",
+        "nativeName": {
+            "ell": { "official": "Δημοκρατία της Κύπρος", "common": "Κύπρος" },
+            "tur": { "official": "Kıbrıs Cumhuriyeti", "common": "Kıbrıs" }
+        },
+        "flag": "https://flagcdn.com/cy.svg",
+        "phoneCode": "+357"
+    },
+    {
+        "name": "Thailand",
+        "nativeName": {
+            "tha": { "official": "ราชอาณาจักรไทย", "common": "ประเทศไทย" }
+        },
+        "flag": "https://flagcdn.com/th.svg",
+        "phoneCode": "+66"
+    },
+    {
+        "name": "Turkey",
+        "nativeName": {
+            "tur": { "official": "Türkiye Cumhuriyeti", "common": "Türkiye" }
+        },
+        "flag": "https://flagcdn.com/tr.svg",
+        "phoneCode": "+90"
+    },
+    {
+        "name": "Bermuda",
+        "nativeName": { "eng": { "official": "Bermuda", "common": "Bermuda" } },
+        "flag": "https://flagcdn.com/bm.svg",
+        "phoneCode": "+1441"
+    },
+    {
+        "name": "Australia",
+        "nativeName": {
+            "eng": {
+                "official": "Commonwealth of Australia",
+                "common": "Australia"
+            }
+        },
+        "flag": "https://flagcdn.com/au.svg",
+        "phoneCode": "+61"
+    },
+    {
+        "name": "Bangladesh",
+        "nativeName": {
+            "ben": {
+                "official": "বাংলাদেশ গণপ্রজাতন্ত্রী",
+                "common": "বাংলাদেশ"
+            }
+        },
+        "flag": "https://flagcdn.com/bd.svg",
+        "phoneCode": "+880"
+    },
+    {
+        "name": "Grenada",
+        "nativeName": { "eng": { "official": "Grenada", "common": "Grenada" } },
+        "flag": "https://flagcdn.com/gd.svg",
+        "phoneCode": "+1473"
+    },
+    {
+        "name": "Singapore",
+        "nativeName": {
+            "zho": { "official": "新加坡共和国", "common": "新加坡" },
+            "eng": {
+                "official": "Republic of Singapore",
+                "common": "Singapore"
+            },
+            "msa": { "official": "Republik Singapura", "common": "Singapura" },
+            "tam": {
+                "official": "சிங்கப்பூர் குடியரசு",
+                "common": "சிங்கப்பூர்"
+            }
+        },
+        "flag": "https://flagcdn.com/sg.svg",
+        "phoneCode": "+65"
+    },
+    {
+        "name": "Moldova",
+        "nativeName": {
+            "ron": { "official": "Republica Moldova", "common": "Moldova" }
+        },
+        "flag": "https://flagcdn.com/md.svg",
+        "phoneCode": "+373"
+    },
+    {
+        "name": "Mali",
+        "nativeName": {
+            "fra": { "official": "République du Mali", "common": "Mali" }
+        },
+        "flag": "https://flagcdn.com/ml.svg",
+        "phoneCode": "+223"
+    },
+    {
+        "name": "Kenya",
+        "nativeName": {
+            "eng": { "official": "Republic of Kenya", "common": "Kenya" },
+            "swa": { "official": "Republic of Kenya", "common": "Kenya" }
+        },
+        "flag": "https://flagcdn.com/ke.svg",
+        "phoneCode": "+254"
+    },
+    {
+        "name": "Uruguay",
+        "nativeName": {
+            "spa": {
+                "official": "República Oriental del Uruguay",
+                "common": "Uruguay"
+            }
+        },
+        "flag": "https://flagcdn.com/uy.svg",
+        "phoneCode": "+598"
+    },
+    {
+        "name": "Switzerland",
+        "nativeName": {
+            "fra": { "official": "Confédération suisse", "common": "Suisse" },
+            "gsw": {
+                "official": "Schweizerische Eidgenossenschaft",
+                "common": "Schweiz"
+            },
+            "ita": {
+                "official": "Confederazione Svizzera",
+                "common": "Svizzera"
+            },
+            "roh": { "official": "Confederaziun svizra", "common": "Svizra" }
+        },
+        "flag": "https://flagcdn.com/ch.svg",
+        "phoneCode": "+41"
+    },
+    {
+        "name": "El Salvador",
+        "nativeName": {
+            "spa": {
+                "official": "República de El Salvador",
+                "common": "El Salvador"
+            }
+        },
+        "flag": "https://flagcdn.com/sv.svg",
+        "phoneCode": "+503"
+    },
+    {
+        "name": "Chad",
+        "nativeName": {
+            "ara": { "official": "جمهورية تشاد", "common": "تشاد‎" },
+            "fra": { "official": "République du Tchad", "common": "Tchad" }
+        },
+        "flag": "https://flagcdn.com/td.svg",
+        "phoneCode": "+235"
+    },
+    {
+        "name": "Greenland",
+        "nativeName": {
+            "kal": {
+                "official": "Kalaallit Nunaat",
+                "common": "Kalaallit Nunaat"
+            }
+        },
+        "flag": "https://flagcdn.com/gl.svg",
+        "phoneCode": "+299"
+    },
+    {
+        "name": "Belarus",
+        "nativeName": {
+            "bel": { "official": "Рэспубліка Беларусь", "common": "Белару́сь" },
+            "rus": { "official": "Республика Беларусь", "common": "Беларусь" }
+        },
+        "flag": "https://flagcdn.com/by.svg",
+        "phoneCode": "+375"
+    },
+    {
+        "name": "Ivory Coast",
+        "nativeName": {
+            "fra": {
+                "official": "République de Côte d'Ivoire",
+                "common": "Côte d'Ivoire"
+            }
+        },
+        "flag": "https://flagcdn.com/ci.svg",
+        "phoneCode": "+225"
+    },
+    {
+        "name": "Lebanon",
+        "nativeName": {
+            "ara": { "official": "الجمهورية اللبنانية", "common": "لبنان" },
+            "fra": { "official": "République libanaise", "common": "Liban" }
+        },
+        "flag": "https://flagcdn.com/lb.svg",
+        "phoneCode": "+961"
+    },
+    {
+        "name": "Netherlands",
+        "nativeName": {
+            "nld": {
+                "official": "Koninkrijk der Nederlanden",
+                "common": "Nederland"
+            }
+        },
+        "flag": "https://flagcdn.com/nl.svg",
+        "phoneCode": "+31"
+    },
+    {
+        "name": "San Marino",
+        "nativeName": {
+            "ita": {
+                "official": "Repubblica di San Marino",
+                "common": "San Marino"
+            }
+        },
+        "flag": "https://flagcdn.com/sm.svg",
+        "phoneCode": "+378"
+    },
+    {
+        "name": "Bhutan",
+        "nativeName": {
+            "dzo": { "official": "འབྲུག་རྒྱལ་ཁབ་", "common": "འབྲུག་ཡུལ་" }
+        },
+        "flag": "https://flagcdn.com/bt.svg",
+        "phoneCode": "+975"
+    },
+    {
+        "name": "Malaysia",
+        "nativeName": {
+            "eng": { "official": "Malaysia", "common": "Malaysia" },
+            "msa": { "official": "مليسيا", "common": "مليسيا" }
+        },
+        "flag": "https://flagcdn.com/my.svg",
+        "phoneCode": "+60"
+    },
+    {
+        "name": "Kazakhstan",
+        "nativeName": {
+            "kaz": {
+                "official": "Қазақстан Республикасы",
+                "common": "Қазақстан"
+            },
+            "rus": { "official": "Республика Казахстан", "common": "Казахстан" }
+        },
+        "flag": "https://flagcdn.com/kz.svg",
+        "phoneCode": "+7"
+    },
+    {
+        "name": "Finland",
+        "nativeName": {
+            "fin": { "official": "Suomen tasavalta", "common": "Suomi" },
+            "swe": { "official": "Republiken Finland", "common": "Finland" }
+        },
+        "flag": "https://flagcdn.com/fi.svg",
+        "phoneCode": "+358"
+    },
+    {
+        "name": "Tunisia",
+        "nativeName": {
+            "ara": { "official": "الجمهورية التونسية", "common": "تونس" }
+        },
+        "flag": "https://flagcdn.com/tn.svg",
+        "phoneCode": "+216"
+    },
+    {
+        "name": "Gambia",
+        "nativeName": {
+            "eng": { "official": "Republic of the Gambia", "common": "Gambia" }
+        },
+        "flag": "https://flagcdn.com/gm.svg",
+        "phoneCode": "+220"
+    },
+    {
+        "name": "Syria",
+        "nativeName": {
+            "ara": {
+                "official": "الجمهورية العربية السورية",
+                "common": "سوريا"
+            }
+        },
+        "flag": "https://flagcdn.com/sy.svg",
+        "phoneCode": "+963"
+    },
+    {
+        "name": "French Southern and Antarctic Lands",
+        "nativeName": {
+            "fra": {
+                "official": "Territoire des Terres australes et antarctiques françaises",
+                "common": "Terres australes et antarctiques françaises"
+            }
+        },
+        "flag": "https://flagcdn.com/tf.svg",
+        "phoneCode": "+262"
+    },
+    {
+        "name": "Norfolk Island",
+        "nativeName": {
+            "eng": {
+                "official": "Territory of Norfolk Island",
+                "common": "Norfolk Island"
+            },
+            "pih": {
+                "official": "Teratri of Norf'k Ailen",
+                "common": "Norf'k Ailen"
+            }
+        },
+        "flag": "https://flagcdn.com/nf.svg",
+        "phoneCode": "+672"
+    },
+    {
+        "name": "Guinea",
+        "nativeName": {
+            "fra": { "official": "République de Guinée", "common": "Guinée" }
+        },
+        "flag": "https://flagcdn.com/gn.svg",
+        "phoneCode": "+224"
+    },
+    {
+        "name": "Caribbean Netherlands",
+        "nativeName": {
+            "nld": {
+                "official": "Bonaire, Sint Eustatius en Saba",
+                "common": "Caribisch Nederland"
+            },
+            "pap": {
+                "official": "Boneiru, Sint Eustatius y Saba",
+                "common": "Boneiru, Sint Eustatius y Saba"
+            }
+        },
+        "flag": "https://flagcdn.com/bq.svg",
+        "phoneCode": "+599"
+    },
+    {
+        "name": "Mozambique",
+        "nativeName": {
+            "por": {
+                "official": "República de Moçambique",
+                "common": "Moçambique"
+            }
+        },
+        "flag": "https://flagcdn.com/mz.svg",
+        "phoneCode": "+258"
+    },
+    {
+        "name": "Samoa",
+        "nativeName": {
+            "eng": {
+                "official": "Independent State of Samoa",
+                "common": "Samoa"
+            },
+            "smo": {
+                "official": "Malo Saʻoloto Tutoʻatasi o Sāmoa",
+                "common": "Sāmoa"
+            }
+        },
+        "flag": "https://flagcdn.com/ws.svg",
+        "phoneCode": "+685"
+    },
+    {
+        "name": "Taiwan",
+        "nativeName": { "zho": { "official": "中華民國", "common": "台灣" } },
+        "flag": "https://flagcdn.com/tw.svg",
+        "phoneCode": "+886"
+    },
+    {
+        "name": "South Georgia",
+        "nativeName": {
+            "eng": {
+                "official": "South Georgia and the South Sandwich Islands",
+                "common": "South Georgia"
+            }
+        },
+        "flag": "https://flagcdn.com/gs.svg",
+        "phoneCode": "+500"
+    },
+    {
+        "name": "North Korea",
+        "nativeName": {
+            "kor": { "official": "조선민주주의인민공화국", "common": "조선" }
+        },
+        "flag": "https://flagcdn.com/kp.svg",
+        "phoneCode": "+850"
+    },
+    {
+        "name": "Djibouti",
+        "nativeName": {
+            "ara": { "official": "جمهورية جيبوتي", "common": "جيبوتي‎" },
+            "fra": {
+                "official": "République de Djibouti",
+                "common": "Djibouti"
+            }
+        },
+        "flag": "https://flagcdn.com/dj.svg",
+        "phoneCode": "+253"
+    },
+    {
+        "name": "Suriname",
+        "nativeName": {
+            "nld": { "official": "Republiek Suriname", "common": "Suriname" }
+        },
+        "flag": "https://flagcdn.com/sr.svg",
+        "phoneCode": "+597"
+    },
+    {
+        "name": "France",
+        "nativeName": {
+            "fra": { "official": "République française", "common": "France" }
+        },
+        "flag": "https://flagcdn.com/fr.svg",
+        "phoneCode": "+33"
+    },
+    {
+        "name": "Rwanda",
+        "nativeName": {
+            "eng": { "official": "Republic of Rwanda", "common": "Rwanda" },
+            "fra": { "official": "République rwandaise", "common": "Rwanda" },
+            "kin": { "official": "Repubulika y'u Rwanda", "common": "Rwanda" }
+        },
+        "flag": "https://flagcdn.com/rw.svg",
+        "phoneCode": "+250"
+    },
+    {
+        "name": "South Korea",
+        "nativeName": { "kor": { "official": "대한민국", "common": "한국" } },
+        "flag": "https://flagcdn.com/kr.svg",
+        "phoneCode": "+82"
+    },
+    {
+        "name": "Antarctica",
+        "nativeName": {},
+        "flag": "https://flagcdn.com/aq.svg",
+        "phoneCode": ""
+    },
+    {
+        "name": "Curaçao",
+        "nativeName": {
+            "eng": { "official": "Country of Curaçao", "common": "Curaçao" },
+            "nld": { "official": "Land Curaçao", "common": "Curaçao" },
+            "pap": { "official": "Pais Kòrsou", "common": "Pais Kòrsou" }
+        },
+        "flag": "https://flagcdn.com/cw.svg",
+        "phoneCode": "+599"
+    },
+    {
+        "name": "Jamaica",
+        "nativeName": {
+            "eng": { "official": "Jamaica", "common": "Jamaica" },
+            "jam": { "official": "Jamaica", "common": "Jamaica" }
+        },
+        "flag": "https://flagcdn.com/jm.svg",
+        "phoneCode": "+1876"
+    },
+    {
+        "name": "Maldives",
+        "nativeName": {
+            "div": {
+                "official": "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ",
+                "common": "ދިވެހިރާއްޖޭގެ"
+            }
+        },
+        "flag": "https://flagcdn.com/mv.svg",
+        "phoneCode": "+960"
+    },
+    {
+        "name": "Slovenia",
+        "nativeName": {
+            "slv": { "official": "Republika Slovenija", "common": "Slovenija" }
+        },
+        "flag": "https://flagcdn.com/si.svg",
+        "phoneCode": "+386"
+    },
+    {
+        "name": "Christmas Island",
+        "nativeName": {
+            "eng": {
+                "official": "Territory of Christmas Island",
+                "common": "Christmas Island"
+            }
+        },
+        "flag": "https://flagcdn.com/cx.svg",
+        "phoneCode": "+61"
+    },
+    {
+        "name": "United States Virgin Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Virgin Islands of the United States",
+                "common": "United States Virgin Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/vi.svg",
+        "phoneCode": "+1340"
+    },
+    {
+        "name": "Paraguay",
+        "nativeName": {
+            "grn": { "official": "Tetã Paraguái", "common": "Paraguái" },
+            "spa": { "official": "República de Paraguay", "common": "Paraguay" }
+        },
+        "flag": "https://flagcdn.com/py.svg",
+        "phoneCode": "+595"
+    },
+    {
+        "name": "Indonesia",
+        "nativeName": {
+            "ind": { "official": "Republik Indonesia", "common": "Indonesia" }
+        },
+        "flag": "https://flagcdn.com/id.svg",
+        "phoneCode": "+62"
+    },
+    {
+        "name": "Madagascar",
+        "nativeName": {
+            "fra": {
+                "official": "République de Madagascar",
+                "common": "Madagascar"
+            },
+            "mlg": {
+                "official": "Repoblikan'i Madagasikara",
+                "common": "Madagasikara"
+            }
+        },
+        "flag": "https://flagcdn.com/mg.svg",
+        "phoneCode": "+261"
+    },
+    {
+        "name": "Iraq",
+        "nativeName": {
+            "ara": { "official": "جمهورية العراق", "common": "العراق" },
+            "arc": { "official": "ܩܘܼܛܢܵܐ ܐܝܼܪܲܩ", "common": "ܩܘܼܛܢܵܐ" },
+            "ckb": { "official": "کۆماری عێراق", "common": "کۆماری" }
+        },
+        "flag": "https://flagcdn.com/iq.svg",
+        "phoneCode": "+964"
+    },
+    {
+        "name": "Honduras",
+        "nativeName": {
+            "spa": { "official": "República de Honduras", "common": "Honduras" }
+        },
+        "flag": "https://flagcdn.com/hn.svg",
+        "phoneCode": "+504"
+    },
+    {
+        "name": "Morocco",
+        "nativeName": {
+            "ara": { "official": "المملكة المغربية", "common": "المغرب" },
+            "ber": { "official": "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ", "common": "ⵍⵎⴰⵖⵔⵉⴱ" }
+        },
+        "flag": "https://flagcdn.com/ma.svg",
+        "phoneCode": "+212"
+    },
+    {
+        "name": "Hong Kong",
+        "nativeName": {
+            "eng": {
+                "official": "Hong Kong Special Administrative Region of the People's Republic of China",
+                "common": "Hong Kong"
+            },
+            "zho": {
+                "official": "中华人民共和国香港特别行政区",
+                "common": "香港"
+            }
+        },
+        "flag": "https://flagcdn.com/hk.svg",
+        "phoneCode": "+852"
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "nativeName": {
+            "eng": {
+                "official": "Antigua and Barbuda",
+                "common": "Antigua and Barbuda"
+            }
+        },
+        "flag": "https://flagcdn.com/ag.svg",
+        "phoneCode": "+1268"
+    },
+    {
+        "name": "Sri Lanka",
+        "nativeName": {
+            "sin": {
+                "official": "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",
+                "common": "ශ්‍රී ලංකාව"
+            },
+            "tam": {
+                "official": "இலங்கை சனநாயக சோசலிசக் குடியரசு",
+                "common": "இலங்கை"
+            }
+        },
+        "flag": "https://flagcdn.com/lk.svg",
+        "phoneCode": "+94"
+    },
+    {
+        "name": "Haiti",
+        "nativeName": {
+            "fra": { "official": "République d'Haïti", "common": "Haïti" },
+            "hat": { "official": "Repiblik Ayiti", "common": "Ayiti" }
+        },
+        "flag": "https://flagcdn.com/ht.svg",
+        "phoneCode": "+509"
+    },
+    {
+        "name": "Cuba",
+        "nativeName": {
+            "spa": { "official": "República de Cuba", "common": "Cuba" }
+        },
+        "flag": "https://flagcdn.com/cu.svg",
+        "phoneCode": "+53"
+    },
+    {
+        "name": "Tajikistan",
+        "nativeName": {
+            "rus": {
+                "official": "Республика Таджикистан",
+                "common": "Таджикистан"
+            },
+            "tgk": { "official": "Ҷумҳурии Тоҷикистон", "common": "Тоҷикистон" }
+        },
+        "flag": "https://flagcdn.com/tj.svg",
+        "phoneCode": "+992"
+    },
+    {
+        "name": "Cook Islands",
+        "nativeName": {
+            "eng": { "official": "Cook Islands", "common": "Cook Islands" },
+            "rar": { "official": "Kūki 'Āirani", "common": "Kūki 'Āirani" }
+        },
+        "flag": "https://flagcdn.com/ck.svg",
+        "phoneCode": "+682"
+    },
+    {
+        "name": "Colombia",
+        "nativeName": {
+            "spa": { "official": "República de Colombia", "common": "Colombia" }
+        },
+        "flag": "https://flagcdn.com/co.svg",
+        "phoneCode": "+57"
+    },
+    {
+        "name": "Micronesia",
+        "nativeName": {
+            "eng": {
+                "official": "Federated States of Micronesia",
+                "common": "Micronesia"
+            }
+        },
+        "flag": "https://flagcdn.com/fm.svg",
+        "phoneCode": "+691"
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "nativeName": {
+            "cal": {
+                "official": "Commonwealth of the Northern Mariana Islands",
+                "common": "Northern Mariana Islands"
+            },
+            "cha": {
+                "official": "Sankattan Siha Na Islas Mariånas",
+                "common": "Na Islas Mariånas"
+            },
+            "eng": {
+                "official": "Commonwealth of the Northern Mariana Islands",
+                "common": "Northern Mariana Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/mp.svg",
+        "phoneCode": "+1670"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "nativeName": {
+            "eng": {
+                "official": "Federation of Saint Christopher and Nevis",
+                "common": "Saint Kitts and Nevis"
+            }
+        },
+        "flag": "https://flagcdn.com/kn.svg",
+        "phoneCode": "+1869"
+    },
+    {
+        "name": "Uzbekistan",
+        "nativeName": {
+            "rus": {
+                "official": "Республика Узбекистан",
+                "common": "Узбекистан"
+            },
+            "uzb": {
+                "official": "O'zbekiston Respublikasi",
+                "common": "O‘zbekiston"
+            }
+        },
+        "flag": "https://flagcdn.com/uz.svg",
+        "phoneCode": "+998"
+    },
+    {
+        "name": "Gibraltar",
+        "nativeName": {
+            "eng": { "official": "Gibraltar", "common": "Gibraltar" }
+        },
+        "flag": "https://flagcdn.com/gi.svg",
+        "phoneCode": "+350"
+    },
+    {
+        "name": "Ireland",
+        "nativeName": {
+            "eng": { "official": "Republic of Ireland", "common": "Ireland" },
+            "gle": { "official": "Poblacht na hÉireann", "common": "Éire" }
+        },
+        "flag": "https://flagcdn.com/ie.svg",
+        "phoneCode": "+353"
+    },
+    {
+        "name": "Peru",
+        "nativeName": {
+            "aym": { "official": "Piruw Suyu", "common": "Piruw" },
+            "que": { "official": "Piruw Ripuwlika", "common": "Piruw" },
+            "spa": { "official": "República del Perú", "common": "Perú" }
+        },
+        "flag": "https://flagcdn.com/pe.svg",
+        "phoneCode": "+51"
+    },
+    {
+        "name": "Pakistan",
+        "nativeName": {
+            "eng": {
+                "official": "Islamic Republic of Pakistan",
+                "common": "Pakistan"
+            },
+            "urd": { "official": "اسلامی جمہوریۂ پاكستان", "common": "پاكستان" }
+        },
+        "flag": "https://flagcdn.com/pk.svg",
+        "phoneCode": "+92"
+    },
+    {
+        "name": "Chile",
+        "nativeName": {
+            "spa": { "official": "República de Chile", "common": "Chile" }
+        },
+        "flag": "https://flagcdn.com/cl.svg",
+        "phoneCode": "+56"
+    },
+    {
+        "name": "Zambia",
+        "nativeName": {
+            "eng": { "official": "Republic of Zambia", "common": "Zambia" }
+        },
+        "flag": "https://flagcdn.com/zm.svg",
+        "phoneCode": "+260"
+    },
+    {
+        "name": "Saint Lucia",
+        "nativeName": {
+            "eng": { "official": "Saint Lucia", "common": "Saint Lucia" }
+        },
+        "flag": "https://flagcdn.com/lc.svg",
+        "phoneCode": "+1758"
+    },
+    {
+        "name": "Seychelles",
+        "nativeName": {
+            "crs": { "official": "Repiblik Sesel", "common": "Sesel" },
+            "eng": {
+                "official": "Republic of Seychelles",
+                "common": "Seychelles"
+            },
+            "fra": {
+                "official": "République des Seychelles",
+                "common": "Seychelles"
+            }
+        },
+        "flag": "https://flagcdn.com/sc.svg",
+        "phoneCode": "+248"
+    },
+    {
+        "name": "Benin",
+        "nativeName": {
+            "fra": { "official": "République du Bénin", "common": "Bénin" }
+        },
+        "flag": "https://flagcdn.com/bj.svg",
+        "phoneCode": "+229"
+    },
+    {
+        "name": "United Kingdom",
+        "nativeName": {
+            "eng": {
+                "official": "United Kingdom of Great Britain and Northern Ireland",
+                "common": "United Kingdom"
+            }
+        },
+        "flag": "https://flagcdn.com/gb.svg",
+        "phoneCode": "+44"
+    },
+    {
+        "name": "Bouvet Island",
+        "nativeName": {
+            "nor": { "official": "Bouvetøya", "common": "Bouvetøya" }
+        },
+        "flag": "https://flagcdn.com/bv.svg",
+        "phoneCode": "+47"
+    },
+    {
+        "name": "Costa Rica",
+        "nativeName": {
+            "spa": {
+                "official": "República de Costa Rica",
+                "common": "Costa Rica"
+            }
+        },
+        "flag": "https://flagcdn.com/cr.svg",
+        "phoneCode": "+506"
+    },
+    {
+        "name": "Comoros",
+        "nativeName": {
+            "ara": { "official": "الاتحاد القمري", "common": "القمر‎" },
+            "fra": { "official": "Union des Comores", "common": "Comores" },
+            "zdj": { "official": "Udzima wa Komori", "common": "Komori" }
+        },
+        "flag": "https://flagcdn.com/km.svg",
+        "phoneCode": "+269"
+    },
+    {
+        "name": "Iceland",
+        "nativeName": { "isl": { "official": "Ísland", "common": "Ísland" } },
+        "flag": "https://flagcdn.com/is.svg",
+        "phoneCode": "+354"
+    },
+    {
+        "name": "Japan",
+        "nativeName": { "jpn": { "official": "日本", "common": "日本" } },
+        "flag": "https://flagcdn.com/jp.svg",
+        "phoneCode": "+81"
+    },
+    {
+        "name": "Vatican City",
+        "nativeName": {
+            "ita": {
+                "official": "Stato della Città del Vaticano",
+                "common": "Vaticano"
+            },
+            "lat": {
+                "official": "Status Civitatis Vaticanæ",
+                "common": "Vaticanæ"
+            }
+        },
+        "flag": "https://flagcdn.com/va.svg",
+        "phoneCode": "+3"
+    },
+    {
+        "name": "British Virgin Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Virgin Islands",
+                "common": "British Virgin Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/vg.svg",
+        "phoneCode": "+1284"
+    },
+    {
+        "name": "New Caledonia",
+        "nativeName": {
+            "fra": {
+                "official": "Nouvelle-Calédonie",
+                "common": "Nouvelle-Calédonie"
+            }
+        },
+        "flag": "https://flagcdn.com/nc.svg",
+        "phoneCode": "+687"
+    },
+    {
+        "name": "Fiji",
+        "nativeName": {
+            "eng": { "official": "Republic of Fiji", "common": "Fiji" },
+            "fij": { "official": "Matanitu Tugalala o Viti", "common": "Viti" },
+            "hif": { "official": "रिपब्लिक ऑफ फीजी", "common": "फिजी" }
+        },
+        "flag": "https://flagcdn.com/fj.svg",
+        "phoneCode": "+679"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "nativeName": {
+            "bos": {
+                "official": "Bosna i Hercegovina",
+                "common": "Bosna i Hercegovina"
+            },
+            "hrv": {
+                "official": "Bosna i Hercegovina",
+                "common": "Bosna i Hercegovina"
+            },
+            "srp": {
+                "official": "Босна и Херцеговина",
+                "common": "Босна и Херцеговина"
+            }
+        },
+        "flag": "https://flagcdn.com/ba.svg",
+        "phoneCode": "+387"
+    },
+    {
+        "name": "Cocos (Keeling) Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Territory of the Cocos (Keeling) Islands",
+                "common": "Cocos (Keeling) Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/cc.svg",
+        "phoneCode": "+61"
+    },
+    {
+        "name": "Western Sahara",
+        "nativeName": {
+            "ber": {
+                "official": "Sahrawi Arab Democratic Republic",
+                "common": "Western Sahara"
+            },
+            "mey": {
+                "official": "الجمهورية العربية الصحراوية الديمقراطية",
+                "common": "الصحراء الغربية"
+            },
+            "spa": {
+                "official": "República Árabe Saharaui Democrática",
+                "common": "Sahara Occidental"
+            }
+        },
+        "flag": "https://flagcdn.com/eh.svg",
+        "phoneCode": "+2"
+    },
+    {
+        "name": "Mexico",
+        "nativeName": {
+            "spa": {
+                "official": "Estados Unidos Mexicanos",
+                "common": "México"
+            }
+        },
+        "flag": "https://flagcdn.com/mx.svg",
+        "phoneCode": "+52"
+    },
+    {
+        "name": "Cambodia",
+        "nativeName": {
+            "khm": {
+                "official": "ព្រះរាជាណាចក្រកម្ពុជា",
+                "common": "Kâmpŭchéa"
+            }
+        },
+        "flag": "https://flagcdn.com/kh.svg",
+        "phoneCode": "+855"
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "nativeName": {
+            "eng": {
+                "official": "Saint Vincent and the Grenadines",
+                "common": "Saint Vincent and the Grenadines"
+            }
+        },
+        "flag": "https://flagcdn.com/vc.svg",
+        "phoneCode": "+1784"
+    },
+    {
+        "name": "Iran",
+        "nativeName": {
+            "fas": { "official": "جمهوری اسلامی ایران", "common": "ایران" }
+        },
+        "flag": "https://flagcdn.com/ir.svg",
+        "phoneCode": "+98"
+    },
+    {
+        "name": "Malta",
+        "nativeName": {
+            "eng": { "official": "Republic of Malta", "common": "Malta" },
+            "mlt": { "official": "Repubblika ta ' Malta", "common": "Malta" }
+        },
+        "flag": "https://flagcdn.com/mt.svg",
+        "phoneCode": "+356"
+    },
+    {
+        "name": "Serbia",
+        "nativeName": {
+            "srp": { "official": "Република Србија", "common": "Србија" }
+        },
+        "flag": "https://flagcdn.com/rs.svg",
+        "phoneCode": "+381"
+    },
+    {
+        "name": "United Arab Emirates",
+        "nativeName": {
+            "ara": {
+                "official": "الإمارات العربية المتحدة",
+                "common": "دولة الإمارات العربية المتحدة"
+            }
+        },
+        "flag": "https://flagcdn.com/ae.svg",
+        "phoneCode": "+971"
+    },
+    {
+        "name": "Azerbaijan",
+        "nativeName": {
+            "aze": {
+                "official": "Azərbaycan Respublikası",
+                "common": "Azərbaycan"
+            },
+            "rus": {
+                "official": "Азербайджанская Республика",
+                "common": "Азербайджан"
+            }
+        },
+        "flag": "https://flagcdn.com/az.svg",
+        "phoneCode": "+994"
+    },
+    {
+        "name": "Heard Island and McDonald Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Heard Island and McDonald Islands",
+                "common": "Heard Island and McDonald Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/hm.svg",
+        "phoneCode": ""
+    },
+    {
+        "name": "French Polynesia",
+        "nativeName": {
+            "fra": {
+                "official": "Polynésie française",
+                "common": "Polynésie française"
+            }
+        },
+        "flag": "https://flagcdn.com/pf.svg",
+        "phoneCode": "+689"
+    },
+    {
+        "name": "Vanuatu",
+        "nativeName": {
+            "bis": {
+                "official": "Ripablik blong Vanuatu",
+                "common": "Vanuatu"
+            },
+            "eng": { "official": "Republic of Vanuatu", "common": "Vanuatu" },
+            "fra": { "official": "République de Vanuatu", "common": "Vanuatu" }
+        },
+        "flag": "https://flagcdn.com/vu.svg",
+        "phoneCode": "+678"
+    },
+    {
+        "name": "Niger",
+        "nativeName": {
+            "fra": { "official": "République du Niger", "common": "Niger" }
+        },
+        "flag": "https://flagcdn.com/ne.svg",
+        "phoneCode": "+227"
+    },
+    {
+        "name": "Eritrea",
+        "nativeName": {
+            "ara": { "official": "دولة إرتريا", "common": "إرتريا‎" },
+            "eng": { "official": "State of Eritrea", "common": "Eritrea" },
+            "tir": { "official": "ሃገረ ኤርትራ", "common": "ኤርትራ" }
+        },
+        "flag": "https://flagcdn.com/er.svg",
+        "phoneCode": "+291"
+    },
+    {
+        "name": "Central African Republic",
+        "nativeName": {
+            "fra": {
+                "official": "République centrafricaine",
+                "common": "République centrafricaine"
+            },
+            "sag": {
+                "official": "Ködörösêse tî Bêafrîka",
+                "common": "Bêafrîka"
+            }
+        },
+        "flag": "https://flagcdn.com/cf.svg",
+        "phoneCode": "+236"
+    },
+    {
+        "name": "Israel",
+        "nativeName": {
+            "ara": { "official": "دولة إسرائيل", "common": "إسرائيل" },
+            "heb": { "official": "מדינת ישראל", "common": "ישראל" }
+        },
+        "flag": "https://flagcdn.com/il.svg",
+        "phoneCode": "+972"
+    },
+    {
+        "name": "Nepal",
+        "nativeName": {
+            "nep": {
+                "official": "नेपाल संघीय लोकतान्त्रिक गणतन्त्र",
+                "common": "नेपाल"
+            }
+        },
+        "flag": "https://flagcdn.com/np.svg",
+        "phoneCode": "+977"
+    },
+    {
+        "name": "Panama",
+        "nativeName": {
+            "spa": { "official": "República de Panamá", "common": "Panamá" }
+        },
+        "flag": "https://flagcdn.com/pa.svg",
+        "phoneCode": "+507"
+    },
+    {
+        "name": "Guernsey",
+        "nativeName": {
+            "eng": {
+                "official": "Bailiwick of Guernsey",
+                "common": "Guernsey"
+            },
+            "fra": {
+                "official": "Bailliage de Guernesey",
+                "common": "Guernesey"
+            },
+            "nfr": { "official": "Dgèrnésiais", "common": "Dgèrnésiais" }
+        },
+        "flag": "https://flagcdn.com/gg.svg",
+        "phoneCode": "+44"
+    },
+    {
+        "name": "Solomon Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Solomon Islands",
+                "common": "Solomon Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/sb.svg",
+        "phoneCode": "+677"
+    },
+    {
+        "name": "Zimbabwe",
+        "nativeName": {
+            "bwg": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "eng": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "kck": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "khi": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "ndc": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "nde": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "nya": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "sna": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "sot": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "toi": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "tsn": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "tso": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "ven": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "xho": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" },
+            "zib": { "official": "Republic of Zimbabwe", "common": "Zimbabwe" }
+        },
+        "flag": "https://flagcdn.com/zw.svg",
+        "phoneCode": "+263"
+    },
+    {
+        "name": "Aruba",
+        "nativeName": {
+            "nld": { "official": "Aruba", "common": "Aruba" },
+            "pap": { "official": "Aruba", "common": "Aruba" }
+        },
+        "flag": "https://flagcdn.com/aw.svg",
+        "phoneCode": "+297"
+    },
+    {
+        "name": "Brunei",
+        "nativeName": {
+            "msa": {
+                "official": "Nation of Brunei, Abode Damai",
+                "common": "Negara Brunei Darussalam"
+            }
+        },
+        "flag": "https://flagcdn.com/bn.svg",
+        "phoneCode": "+673"
+    },
+    {
+        "name": "Denmark",
+        "nativeName": {
+            "dan": { "official": "Kongeriget Danmark", "common": "Danmark" }
+        },
+        "flag": "https://flagcdn.com/dk.svg",
+        "phoneCode": "+45"
+    },
+    {
+        "name": "Belgium",
+        "nativeName": {
+            "deu": { "official": "Königreich Belgien", "common": "Belgien" },
+            "fra": { "official": "Royaume de Belgique", "common": "Belgique" },
+            "nld": { "official": "Koninkrijk België", "common": "België" }
+        },
+        "flag": "https://flagcdn.com/be.svg",
+        "phoneCode": "+32"
+    },
+    {
+        "name": "French Guiana",
+        "nativeName": {
+            "fra": { "official": "Guyane", "common": "Guyane française" }
+        },
+        "flag": "https://flagcdn.com/gf.svg",
+        "phoneCode": "+594"
+    },
+    {
+        "name": "Laos",
+        "nativeName": {
+            "lao": {
+                "official": "ສາທາລະນະ ຊາທິປະໄຕ ຄົນລາວ ຂອງ",
+                "common": "ສປປລາວ"
+            }
+        },
+        "flag": "https://flagcdn.com/la.svg",
+        "phoneCode": "+856"
+    },
+    {
+        "name": "Tonga",
+        "nativeName": {
+            "eng": { "official": "Kingdom of Tonga", "common": "Tonga" },
+            "ton": { "official": "Kingdom of Tonga", "common": "Tonga" }
+        },
+        "flag": "https://flagcdn.com/to.svg",
+        "phoneCode": "+676"
+    },
+    {
+        "name": "Andorra",
+        "nativeName": {
+            "cat": { "official": "Principat d'Andorra", "common": "Andorra" }
+        },
+        "flag": "https://flagcdn.com/ad.svg",
+        "phoneCode": "+376"
+    },
+    {
+        "name": "Guadeloupe",
+        "nativeName": {
+            "fra": { "official": "Guadeloupe", "common": "Guadeloupe" }
+        },
+        "flag": "https://flagcdn.com/gp.svg",
+        "phoneCode": "+590"
+    },
+    {
+        "name": "Martinique",
+        "nativeName": {
+            "fra": { "official": "Martinique", "common": "Martinique" }
+        },
+        "flag": "https://flagcdn.com/mq.svg",
+        "phoneCode": "+596"
+    },
+    {
+        "name": "Lesotho",
+        "nativeName": {
+            "eng": { "official": "Kingdom of Lesotho", "common": "Lesotho" },
+            "sot": { "official": "Kingdom of Lesotho", "common": "Lesotho" }
+        },
+        "flag": "https://flagcdn.com/ls.svg",
+        "phoneCode": "+266"
+    },
+    {
+        "name": "Dominica",
+        "nativeName": {
+            "eng": {
+                "official": "Commonwealth of Dominica",
+                "common": "Dominica"
+            }
+        },
+        "flag": "https://flagcdn.com/dm.svg",
+        "phoneCode": "+1767"
+    },
+    {
+        "name": "Somalia",
+        "nativeName": {
+            "ara": { "official": "جمهورية الصومال‎‎", "common": "الصومال‎‎" },
+            "som": {
+                "official": "Jamhuuriyadda Federaalka Soomaaliya",
+                "common": "Soomaaliya"
+            }
+        },
+        "flag": "https://flagcdn.com/so.svg",
+        "phoneCode": "+252"
+    },
+    {
+        "name": "Croatia",
+        "nativeName": {
+            "hrv": { "official": "Republika Hrvatska", "common": "Hrvatska" }
+        },
+        "flag": "https://flagcdn.com/hr.svg",
+        "phoneCode": "+385"
+    },
+    {
+        "name": "Sierra Leone",
+        "nativeName": {
+            "eng": {
+                "official": "Republic of Sierra Leone",
+                "common": "Sierra Leone"
+            }
+        },
+        "flag": "https://flagcdn.com/sl.svg",
+        "phoneCode": "+232"
+    },
+    {
+        "name": "Saint Barthélemy",
+        "nativeName": {
+            "fra": {
+                "official": "Collectivité de Saint-Barthélemy",
+                "common": "Saint-Barthélemy"
+            }
+        },
+        "flag": "https://flagcdn.com/bl.svg",
+        "phoneCode": "+590"
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "nativeName": {
+            "nor": {
+                "official": "Svalbard og Jan Mayen",
+                "common": "Svalbard og Jan Mayen"
+            }
+        },
+        "flag": "https://flagcdn.com/sj.svg",
+        "phoneCode": "+4779"
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "nativeName": {
+            "fra": {
+                "official": "Collectivité territoriale de Saint-Pierre-et-Miquelon",
+                "common": "Saint-Pierre-et-Miquelon"
+            }
+        },
+        "flag": "https://flagcdn.com/pm.svg",
+        "phoneCode": "+508"
+    },
+    {
+        "name": "United States Minor Outlying Islands",
+        "nativeName": {
+            "eng": {
+                "official": "United States Minor Outlying Islands",
+                "common": "United States Minor Outlying Islands"
+            }
+        },
+        "flag": "https://flagcdn.com/um.svg",
+        "phoneCode": "+268"
+    },
+    {
+        "name": "Burundi",
+        "nativeName": {
+            "fra": { "official": "République du Burundi", "common": "Burundi" },
+            "run": { "official": "Republika y'Uburundi ", "common": "Uburundi" }
+        },
+        "flag": "https://flagcdn.com/bi.svg",
+        "phoneCode": "+257"
+    },
+    {
+        "name": "Senegal",
+        "nativeName": {
+            "fra": { "official": "République du Sénégal", "common": "Sénégal" }
+        },
+        "flag": "https://flagcdn.com/sn.svg",
+        "phoneCode": "+221"
+    },
+    {
+        "name": "Ethiopia",
+        "nativeName": {
+            "amh": {
+                "official": "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",
+                "common": "ኢትዮጵያ"
+            }
+        },
+        "flag": "https://flagcdn.com/et.svg",
+        "phoneCode": "+251"
+    },
+    {
+        "name": "Luxembourg",
+        "nativeName": {
+            "deu": {
+                "official": "Großherzogtum Luxemburg",
+                "common": "Luxemburg"
+            },
+            "fra": {
+                "official": "Grand-Duché de Luxembourg",
+                "common": "Luxembourg"
+            },
+            "ltz": {
+                "official": "Groussherzogtum Lëtzebuerg",
+                "common": "Lëtzebuerg"
+            }
+        },
+        "flag": "https://flagcdn.com/lu.svg",
+        "phoneCode": "+352"
+    },
+    {
+        "name": "China",
+        "nativeName": {
+            "zho": { "official": "中华人民共和国", "common": "中国" }
+        },
+        "flag": "https://flagcdn.com/cn.svg",
+        "phoneCode": "+86"
+    }
+]

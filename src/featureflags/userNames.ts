@@ -1,0 +1,6 @@
+export enum UserNames {
+    SARA_EID = 'SARA_EID',
+    FADY_FAWZY = 'FADY_FAWZY',
+    MENNA_IBRAHEEM = 'MENNA_IBRAHEEM',
+    BISHOY_KHALIL = 'BISHOY_KHALIL',
+}
