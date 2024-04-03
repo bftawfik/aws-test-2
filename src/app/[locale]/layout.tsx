@@ -92,16 +92,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </noscript>
 
                 <NextIntlClientProvider locale={locale} messages={messages}>
-                    <AuthProvider>
-                        <ReactQueryProvider>
-                            <LayoutClientChildren />
-                            <Header />
-                            <main className="pb-16 lg:pb-0">{children}</main>
-                            <ConditionalFooter
-                                cookieDiscoverView={cookieDiscoverView?.value}
-                            />
-                        </ReactQueryProvider>
-                    </AuthProvider>
+                    {/* <AuthProvider> */}
+                    <ReactQueryProvider>
+                        <LayoutClientChildren />
+                        <Header />
+                        <main className="pb-16 lg:pb-0">{children}</main>
+                        <ConditionalFooter
+                            cookieDiscoverView={cookieDiscoverView?.value}
+                        />
+                    </ReactQueryProvider>
+                    {/* </AuthProvider> */}
                 </NextIntlClientProvider>
             </body>
         </html>
