@@ -1,7 +1,7 @@
 import SimplePagination from '@/ui/simplePagination';
 import DeveloperCard from '@/ui/developers/developer-card';
 import getDevelopers from '@/actions/developers/get-developers';
-// import NotFound from '@/app/[locale]/[...not-found]/page';
+import NotFound from '@/app/[locale]/[...not-found]/page';
 import { getCurrentPageFromUrl } from '@/helpers/getCurrentPageFromUrl';
 
 const pageSize = 28;
@@ -38,8 +38,9 @@ const Developers = async ({
     if (currentPage < 1 && searchText) {
         currentPage = 1;
     }
-    return currentPage < 1 || currentPage > totalPages ? // <NotFound />
-    null : (
+    return currentPage < 1 || currentPage > totalPages ? (
+        <NotFound />
+    ) : (
         <div className={classes.Developers}>
             <div className={classes.cardsContainer}>
                 {developers?.map((developer) => (
