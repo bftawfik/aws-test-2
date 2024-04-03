@@ -37,27 +37,27 @@ interface HeaderProps {}
 export const Header = React.forwardRef(
     (props: HeaderProps, ref: React.Ref<HTMLElement>) => {
         // Read localization
-        const locale = useLocale();
+        // const locale = useLocale();
 
-        // Read translations
-        const tAuth = useTranslations('auth');
-        const tHeader = useTranslations('header');
+        // // Read translations
+        // const tAuth = useTranslations('auth');
+        // const tHeader = useTranslations('header');
 
-        const urlLocaleSegment = getUrlLocaleSegment(locale);
-        const isArabic = locale === AR_LOCALE;
-        const languageText = isArabic ? 'English' : 'العربية';
+        // const urlLocaleSegment = getUrlLocaleSegment(locale);
+        // const isArabic = locale === AR_LOCALE;
+        // const languageText = isArabic ? 'English' : 'العربية';
 
-        // use session
-        const { data: session, status } = useSession();
-        const router = useRouter();
+        // // use session
+        // const { data: session, status } = useSession();
+        // const router = useRouter();
 
-        // Modal state
-        const [openModalName, setOpenModalName] = useState<string | null>(null);
-        const [showLogoutMenu, setShowLogoutMenu] = useState<boolean>(false);
+        // // Modal state
+        // const [openModalName, setOpenModalName] = useState<string | null>(null);
+        // const [showLogoutMenu, setShowLogoutMenu] = useState<boolean>(false);
 
-        const isLogin = openModalName === LOGIN_MODAL_NAME;
-        const isSignUp = openModalName === SIGNUP_MODAL_NAME;
-        const isForgetPassword = openModalName === FORGET_PASSWORD_MODAL_NAME;
+        // const isLogin = openModalName === LOGIN_MODAL_NAME;
+        // const isSignUp = openModalName === SIGNUP_MODAL_NAME;
+        // const isForgetPassword = openModalName === FORGET_PASSWORD_MODAL_NAME;
 
         // const modalHeader = () => {
         //     if (isLogin) return tAuth('welcome_back');
