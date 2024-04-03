@@ -70,11 +70,11 @@ export default async function middleware(request: NextRequest) {
 
     const requestHeaders = new Headers();
     requestHeaders.set('x-nonce', nonce);
-    requestHeaders.set(
-        'Content-Security-Policy',
-        // Replace newline characters and spaces
-        cspHeader.replace(/\s{2,}/g, ' ').trim()
-    );
+    // requestHeaders.set(
+    //     'Content-Security-Policy',
+    //     // Replace newline characters and spaces
+    //     cspHeader.replace(/\s{2,}/g, ' ').trim()
+    // );
     const url = new URL(request.url);
     const pathname = url.pathname;
     const handleI18nRouting = createIntlMiddleware({
