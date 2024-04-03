@@ -97,9 +97,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <LayoutClientChildren />
                         {/* <Header /> */}
                         <main className="pb-16 lg:pb-0">{children}</main>
-                        {/* <ConditionalFooter
+                        <ConditionalFooter
                             cookieDiscoverView={cookieDiscoverView?.value}
-                        /> */}
+                        />
                     </ReactQueryProvider>
                     {/* </AuthProvider> */}
                 </NextIntlClientProvider>
