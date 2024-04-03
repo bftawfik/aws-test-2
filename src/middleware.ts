@@ -86,10 +86,10 @@ export default async function middleware(request: NextRequest) {
     if (NODE_ENV !== 'development') {
         response.headers.set('x-default-locale', DEFAULT_LOCALE);
         response.headers.set('x-nonce', nonce);
-        response.headers.set(
-            'Content-Security-Policy',
-            cspHeader.replace(/\s{2,}/g, ' ').trim()
-        );
+        // response.headers.set(
+        //     'Content-Security-Policy',
+        //     cspHeader.replace(/\s{2,}/g, ' ').trim()
+        // );
         response.headers.set('x-invoke-path', pathname);
     }
     NextResponse.next({
