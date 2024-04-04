@@ -59,42 +59,42 @@ export const Header = React.forwardRef(
         const isSignUp = openModalName === SIGNUP_MODAL_NAME;
         const isForgetPassword = openModalName === FORGET_PASSWORD_MODAL_NAME;
 
-        // const modalHeader = () => {
-        //     if (isLogin) return tAuth('welcome_back');
-        //     if (isSignUp) return tAuth('create_account');
-        //     if (isForgetPassword)
-        //         return tAuth('enter_your_mail_to_reset_password');
-        // };
+        const modalHeader = () => {
+            if (isLogin) return tAuth('welcome_back');
+            if (isSignUp) return tAuth('create_account');
+            if (isForgetPassword)
+                return tAuth('enter_your_mail_to_reset_password');
+        };
 
-        // const [modalOpen, setModalOpen] = useState(false);
+        const [modalOpen, setModalOpen] = useState(false);
 
-        // const openLoginModal = () => {
-        //     setOpenModalName(LOGIN_MODAL_NAME);
-        //     setModalOpen(true);
-        // };
-        // const closeModal = () => {
-        //     setModalOpen(false);
-        //     setOpenModalName(null);
-        // };
+        const openLoginModal = () => {
+            setOpenModalName(LOGIN_MODAL_NAME);
+            setModalOpen(true);
+        };
+        const closeModal = () => {
+            setModalOpen(false);
+            setOpenModalName(null);
+        };
         // open sign up modal
-        // const openSignUpModal = () => {
-        //     setModalOpen(true);
-        //     setOpenModalName(SIGNUP_MODAL_NAME);
-        // };
-        // // open forget password modal
-        // const openForgetPasswordModal = () => {
-        //     setModalOpen(true);
-        //     setOpenModalName(FORGET_PASSWORD_MODAL_NAME);
-        // };
-        // const userAgent = useUserAgent();
-        // const appStore =
-        //     userAgent?.os.name?.toLocaleLowerCase() === 'ios'
-        //         ? process.env.NEXT_PUBLIC_APPLE_STORE_APP_URL
-        //         : process.env.NEXT_PUBLIC_PLAY_STORE_APP_URL;
+        const openSignUpModal = () => {
+            setModalOpen(true);
+            setOpenModalName(SIGNUP_MODAL_NAME);
+        };
+        // open forget password modal
+        const openForgetPasswordModal = () => {
+            setModalOpen(true);
+            setOpenModalName(FORGET_PASSWORD_MODAL_NAME);
+        };
+        const userAgent = useUserAgent();
+        const appStore =
+            userAgent?.os.name?.toLocaleLowerCase() === 'ios'
+                ? process.env.NEXT_PUBLIC_APPLE_STORE_APP_URL
+                : process.env.NEXT_PUBLIC_PLAY_STORE_APP_URL;
 
-        // const toggleLogoutMenu = () => {
-        //     setShowLogoutMenu(!showLogoutMenu);
-        // };
+        const toggleLogoutMenu = () => {
+            setShowLogoutMenu(!showLogoutMenu);
+        };
         return null;
         // return (
         //     <>
