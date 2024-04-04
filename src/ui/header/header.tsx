@@ -95,7 +95,6 @@ export const Header = React.forwardRef(
         const toggleLogoutMenu = () => {
             setShowLogoutMenu(!showLogoutMenu);
         };
-        return null;
         return (
             <>
                 <header
