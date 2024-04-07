@@ -10,7 +10,7 @@ import { Hydrate, dehydrate } from '@tanstack/react-query';
 import getQueryClient from '@/helpers/get-query-client';
 import { DiscoverIcon } from '@/ui/svg';
 import CustomShowAllLink from '@/ui/custom-show-all-link';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import {
     EN_LOCALE,
     DISCOVER_RESALE_UNITS_LINK,
@@ -30,7 +30,7 @@ export async function generateMetadata({
     params: { locale: string };
 }): Promise<Metadata> {
     const { locale } = params;
-    const tMeta = await getTranslator(locale, 'meta');
+    const tMeta = await getTranslations('meta');
 
     return {
         title: tMeta('home_title'),
@@ -40,7 +40,7 @@ export async function generateMetadata({
 
 export default async function Home({ params }: any) {
     const locale = params.locale;
-    const tGlobal = await getTranslator(locale, 'global');
+    const tGlobal = await getTranslations('global');
     const urlLocaleSegment = getUrlLocaleSegment(locale);
     // get session on server
     // const session = await getServerSession(authOptions);
