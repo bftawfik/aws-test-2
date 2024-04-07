@@ -121,7 +121,7 @@ export const Header = React.forwardRef(
                                 >
                                     <DiscoverIcon />
                                     <span className="ms-2 text-white">
-                                        {tHeader('discover')}
+                                        {/* {tHeader('discover')} */}
                                     </span>
                                 </Link>
                                 <Link
@@ -129,7 +129,7 @@ export const Header = React.forwardRef(
                                     href={`${urlLocaleSegment}${PROJECTS_LINK}`}
                                     prefetch={false}
                                 >
-                                    {tHeader('projects')}
+                                    {/* {tHeader('projects')} */}
                                 </Link>
                                 {/* <ResetStoreWrapper>
                                     <Link
@@ -216,7 +216,7 @@ export const Header = React.forwardRef(
                                     <ProfileIcon />
                                     <span className="ms-3 text-xs font-medium text-grey-500 lg:text-sm">
                                         {' '}
-                                        {tHeader('login')}
+                                        {/* {tHeader('login')} */}
                                     </span>
                                 </button>
                             </div>
@@ -227,7 +227,7 @@ export const Header = React.forwardRef(
                                     className="rounded-lg bg-primary px-2.5 py-1.5 text-xs font-semibold uppercase text-white"
                                     prefetch={false}
                                 >
-                                    {tHeader('getapp')}
+                                    {/* {tHeader('getapp')} */}
                                 </Link>
                             </div>
                         </div>
@@ -241,7 +241,7 @@ export const Header = React.forwardRef(
                             prefetch={false}
                         >
                             <FaCompass className="h-6 w-6 fill-current text-emerald-500" />
-                            {tHeader('discover')}
+                            {/* {tHeader('discover')} */}
                         </Link>
                         <Link
                             href={`${urlLocaleSegment}/wishlist`}
@@ -249,7 +249,7 @@ export const Header = React.forwardRef(
                             prefetch={false}
                         >
                             <BsHeart className="h-6 w-6 fill-current text-gray-400" />
-                            {tHeader('wishlist')}
+                            {/* {tHeader('wishlist')} */}
                         </Link>
 
                         {/* {status === 'authenticated' &&
@@ -313,7 +313,7 @@ export const Header = React.forwardRef(
                             className="flex flex-col items-center text-xs font-semibold"
                         >
                             <HiOutlineUserCircle className="h-8 w-8 gap-y-1 text-[#BFBFBF]" />
-                            {tHeader('login')}
+                            {/* {tHeader('login')} */}
                         </button>
                     </div>
                 </div>
