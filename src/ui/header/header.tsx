@@ -48,7 +48,7 @@ export const Header = React.forwardRef(
         const languageText = isArabic ? 'English' : 'العربية';
 
         // use session
-        // const { data: session, status } = useSession();
+        const { data: session, status } = useSession();
         const router = useRouter();
 
         // Modal state
@@ -103,15 +103,15 @@ export const Header = React.forwardRef(
                 >
                     <div className="es-container flex h-full w-full items-center justify-between">
                         <div className="flex items-center">
-                            {/* <MobileButton /> */}
-                            {/* <ResetStoreWrapper>
+                            <MobileButton />
+                            <ResetStoreWrapper>
                                 <Link
                                     href={`${urlLocaleSegment}/`}
                                     prefetch={false}
                                 >
                                     <EstatebookLogo isNewBranding={true} />
                                 </Link>
-                            </ResetStoreWrapper> */}
+                            </ResetStoreWrapper>
 
                             <nav className="ms-2 hidden items-center text-xs font-normal md:flex lg:ms-10 lg:text-sm">
                                 <Link
@@ -121,7 +121,7 @@ export const Header = React.forwardRef(
                                 >
                                     <DiscoverIcon />
                                     <span className="ms-2 text-white">
-                                        {/* {tHeader('discover')} */}
+                                        {tHeader('discover')}
                                     </span>
                                 </Link>
                                 <Link
@@ -129,9 +129,9 @@ export const Header = React.forwardRef(
                                     href={`${urlLocaleSegment}${PROJECTS_LINK}`}
                                     prefetch={false}
                                 >
-                                    {/* {tHeader('projects')} */}
+                                    {tHeader('projects')}
                                 </Link>
-                                {/* <ResetStoreWrapper>
+                                <ResetStoreWrapper>
                                     <Link
                                         href={`${urlLocaleSegment}/developers`}
                                         className="text-medium-gray me-5 hover:text-primary lg:me-10"
@@ -139,12 +139,20 @@ export const Header = React.forwardRef(
                                     >
                                         {tHeader('developers')}
                                     </Link>
-                                </ResetStoreWrapper> */}
+                                </ResetStoreWrapper>
+
+                                {/* <Link
+                                    href={`${urlLocaleSegment}`/blogs}`}
+                                    className="text-medium-gray me-1 hover:text-primary"
+                                                                        prefetch={false}
+                                >
+                                    {tHeader('blogs')}
+                                </Link> */}
                             </nav>
                         </div>
                         <div>
                             <div className="hidden items-center md:flex">
-                                {/* <LocaleSwitcher>
+                                <LocaleSwitcher>
                                     <span className="text-medium-gray me-3 font-cairo text-xs font-normal lg:text-sm">
                                         {languageText}
                                     </span>
@@ -158,9 +166,9 @@ export const Header = React.forwardRef(
                                     >
                                         <WishlistIcon />
                                     </Link>
-                                </ResetStoreWrapper> */}
+                                </ResetStoreWrapper>
 
-                                {/* {status === 'authenticated' &&
+                                {status === 'authenticated' &&
                                 !session?.auth?.message &&
                                 !session?.auth?.failed ? (
                                     <div>
@@ -179,6 +187,7 @@ export const Header = React.forwardRef(
                                                     </button>
                                                 </div>
 
+                                                {/* <!-- Dropdown menu--> */}
                                                 <ul className="scale-up-center absolute end-0 hidden w-full min-w-[90px] origin-center overflow-hidden rounded-lg bg-white py-2 ring-1 ring-gray-100 group-hover:block">
                                                     <button
                                                         onClick={async () => {
@@ -208,17 +217,7 @@ export const Header = React.forwardRef(
                                             </span>
                                         </button>
                                     </>
-                                )} */}
-                                <button
-                                    onClick={openLoginModal}
-                                    className="ms-3.5 flex items-center rounded-lg border px-3 py-2"
-                                >
-                                    <ProfileIcon />
-                                    <span className="ms-3 text-xs font-medium text-grey-500 lg:text-sm">
-                                        {' '}
-                                        {/* {tHeader('login')} */}
-                                    </span>
-                                </button>
+                                )}
                             </div>
                             <div className="block md:hidden">
                                 <Link
@@ -227,12 +226,13 @@ export const Header = React.forwardRef(
                                     className="rounded-lg bg-primary px-2.5 py-1.5 text-xs font-semibold uppercase text-white"
                                     prefetch={false}
                                 >
-                                    {/* {tHeader('getapp')} */}
+                                    {tHeader('getapp')}
                                 </Link>
                             </div>
                         </div>
                     </div>
                 </header>
+                {/* Mobile */}
                 <div className="fixed inset-x-0 bottom-0 z-40 border-t bg-white md:hidden">
                     <div className="es-container flex items-center justify-evenly py-3">
                         <Link
@@ -241,7 +241,7 @@ export const Header = React.forwardRef(
                             prefetch={false}
                         >
                             <FaCompass className="h-6 w-6 fill-current text-emerald-500" />
-                            {/* {tHeader('discover')} */}
+                            {tHeader('discover')}
                         </Link>
                         <Link
                             href={`${urlLocaleSegment}/wishlist`}
@@ -249,10 +249,10 @@ export const Header = React.forwardRef(
                             prefetch={false}
                         >
                             <BsHeart className="h-6 w-6 fill-current text-gray-400" />
-                            {/* {tHeader('wishlist')} */}
+                            {tHeader('wishlist')}
                         </Link>
 
-                        {/* {status === 'authenticated' &&
+                        {status === 'authenticated' &&
                         !session?.auth?.message ? (
                             <div className="flex flex-col items-center gap-y-1 text-xs font-semibold">
                                 <button
@@ -282,6 +282,7 @@ export const Header = React.forwardRef(
                                     </p>
                                 </button>
 
+                                {/* <!-- Dropdown menu--> */}
                                 {showLogoutMenu ? (
                                     <ul className=" absolute bottom-16 z-40 flex min-w-[90px] origin-center justify-center overflow-hidden rounded-lg bg-white py-2 ring-1 ring-gray-100">
                                         <button
@@ -307,17 +308,10 @@ export const Header = React.forwardRef(
                                 <HiOutlineUserCircle className="h-8 w-8 gap-y-1 text-[#BFBFBF]" />
                                 {tHeader('login')}
                             </button>
-                        )} */}
-                        <button
-                            onClick={openLoginModal}
-                            className="flex flex-col items-center text-xs font-semibold"
-                        >
-                            <HiOutlineUserCircle className="h-8 w-8 gap-y-1 text-[#BFBFBF]" />
-                            {/* {tHeader('login')} */}
-                        </button>
+                        )}
                     </div>
                 </div>
-                {/* <ReactModal
+                <ReactModal
                     isOpen={modalOpen && !!openModalName}
                     closeModalHandler={closeModal}
                     header={modalHeader()}
@@ -343,7 +337,7 @@ export const Header = React.forwardRef(
                             closeModal={closeModal}
                         />
                     ) : null}
-                </ReactModal> */}
+                </ReactModal>
             </>
         );
     }
