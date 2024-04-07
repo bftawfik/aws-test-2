@@ -48,7 +48,7 @@ export const Header = React.forwardRef(
         const languageText = isArabic ? 'English' : 'العربية';
 
         // use session
-        // const { data: session, status } = useSession();
+        const { data: session, status } = useSession();
         const router = useRouter();
 
         // Modal state
@@ -168,7 +168,7 @@ export const Header = React.forwardRef(
                                     </Link>
                                 </ResetStoreWrapper>
 
-                                {/* {status === 'authenticated' &&
+                                {status === 'authenticated' &&
                                 !session?.auth?.message &&
                                 !session?.auth?.failed ? (
                                     <div>
@@ -187,6 +187,7 @@ export const Header = React.forwardRef(
                                                     </button>
                                                 </div>
 
+                                                {/* <!-- Dropdown menu--> */}
                                                 <ul className="scale-up-center absolute end-0 hidden w-full min-w-[90px] origin-center overflow-hidden rounded-lg bg-white py-2 ring-1 ring-gray-100 group-hover:block">
                                                     <button
                                                         onClick={async () => {
@@ -216,17 +217,7 @@ export const Header = React.forwardRef(
                                             </span>
                                         </button>
                                     </>
-                                )} */}
-                                <button
-                                    onClick={openLoginModal}
-                                    className="ms-3.5 flex items-center rounded-lg border px-3 py-2"
-                                >
-                                    <ProfileIcon />
-                                    <span className="ms-3 text-xs font-medium text-grey-500 lg:text-sm">
-                                        {' '}
-                                        {tHeader('login')}
-                                    </span>
-                                </button>
+                                )}
                             </div>
                             <div className="block md:hidden">
                                 <Link
@@ -261,7 +252,7 @@ export const Header = React.forwardRef(
                             {tHeader('wishlist')}
                         </Link>
 
-                        {/* {status === 'authenticated' &&
+                        {status === 'authenticated' &&
                         !session?.auth?.message ? (
                             <div className="flex flex-col items-center gap-y-1 text-xs font-semibold">
                                 <button
@@ -291,6 +282,7 @@ export const Header = React.forwardRef(
                                     </p>
                                 </button>
 
+                                {/* <!-- Dropdown menu--> */}
                                 {showLogoutMenu ? (
                                     <ul className=" absolute bottom-16 z-40 flex min-w-[90px] origin-center justify-center overflow-hidden rounded-lg bg-white py-2 ring-1 ring-gray-100">
                                         <button
@@ -316,14 +308,7 @@ export const Header = React.forwardRef(
                                 <HiOutlineUserCircle className="h-8 w-8 gap-y-1 text-[#BFBFBF]" />
                                 {tHeader('login')}
                             </button>
-                        )} */}
-                        <button
-                            onClick={openLoginModal}
-                            className="flex flex-col items-center text-xs font-semibold"
-                        >
-                            <HiOutlineUserCircle className="h-8 w-8 gap-y-1 text-[#BFBFBF]" />
-                            {tHeader('login')}
-                        </button>
+                        )}
                     </div>
                 </div>
                 <ReactModal
