@@ -1,6 +1,6 @@
 import Breadcrumbs from '@/ui/breadcrumbs';
 import Image from 'next/image';
-import { getTranslator } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { emptyCountryCode, hotline } from '@/constants';
 import { getUrlLocaleSegment } from '@/helpers/getUrlLocaleSegment';
@@ -11,7 +11,7 @@ export async function generateMetadata({
     params: { locale: string };
 }): Promise<Metadata> {
     const { locale } = params;
-    const tMeta = await getTranslator(locale, 'meta');
+    const tMeta = await getTranslations('meta');
     return {
         title: tMeta('about_us_title'),
         description: tMeta('about_us_description'),
@@ -22,8 +22,8 @@ interface AboutUsProps {
 }
 export default async function AboutUs({ params }: AboutUsProps) {
     const { locale } = params;
-    const tGlobal = await getTranslator(locale, 'global');
-    const tAboutUs = await getTranslator(locale, 'aboutus');
+    const tGlobal = await getTranslations('global');
+    const tAboutUs = await getTranslations('aboutus');
     const urlLocaleSegment = getUrlLocaleSegment(locale);
 
     const pages = [
