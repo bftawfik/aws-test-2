@@ -104,14 +104,14 @@ export const Header = React.forwardRef(
                     <div className="es-container flex h-full w-full items-center justify-between">
                         <div className="flex items-center">
                             <MobileButton />
-                            <ResetStoreWrapper>
+                            {/* <ResetStoreWrapper>
                                 <Link
                                     href={`${urlLocaleSegment}/`}
                                     prefetch={false}
                                 >
                                     <EstatebookLogo isNewBranding={true} />
                                 </Link>
-                            </ResetStoreWrapper>
+                            </ResetStoreWrapper> */}
 
                             <nav className="ms-2 hidden items-center text-xs font-normal md:flex lg:ms-10 lg:text-sm">
                                 <Link
@@ -131,7 +131,7 @@ export const Header = React.forwardRef(
                                 >
                                     {tHeader('projects')}
                                 </Link>
-                                <ResetStoreWrapper>
+                                {/* <ResetStoreWrapper>
                                     <Link
                                         href={`${urlLocaleSegment}/developers`}
                                         className="text-medium-gray me-5 hover:text-primary lg:me-10"
@@ -139,12 +139,12 @@ export const Header = React.forwardRef(
                                     >
                                         {tHeader('developers')}
                                     </Link>
-                                </ResetStoreWrapper>
+                                </ResetStoreWrapper> */}
                             </nav>
                         </div>
                         <div>
                             <div className="hidden items-center md:flex">
-                                <LocaleSwitcher>
+                                {/* <LocaleSwitcher>
                                     <span className="text-medium-gray me-3 font-cairo text-xs font-normal lg:text-sm">
                                         {languageText}
                                     </span>
@@ -158,7 +158,7 @@ export const Header = React.forwardRef(
                                     >
                                         <WishlistIcon />
                                     </Link>
-                                </ResetStoreWrapper>
+                                </ResetStoreWrapper> */}
 
                                 {/* {status === 'authenticated' &&
                                 !session?.auth?.message &&
@@ -317,7 +317,7 @@ export const Header = React.forwardRef(
                         </button>
                     </div>
                 </div>
-                <ReactModal
+                {/* <ReactModal
                     isOpen={modalOpen && !!openModalName}
                     closeModalHandler={closeModal}
                     header={modalHeader()}
@@ -343,7 +343,7 @@ export const Header = React.forwardRef(
                             closeModal={closeModal}
                         />
                     ) : null}
-                </ReactModal>
+                </ReactModal> */}
             </>
         );
     }
